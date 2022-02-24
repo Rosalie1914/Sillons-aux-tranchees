@@ -1,0 +1,433 @@
+body {
+  font-family: 'Merriweather', serif;
+  background-image: linear-gradient(to right top, #d97e57, #d37f5c, #cd8161, #c68265, #c0836a, #c18c71, #c3957a, #c49e83, #ceb194, #d7c4a6, #e2d6bb, #ede9d0);
+  text-align: center;
+}
+
+h1 {
+  font-size: 850%;
+  font-family: 'Sacramento', cursive;
+  color: #fff3ee;
+  font-weight: 700;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #fff3ee;
+  letter-spacing: 2.5px;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff3ee;
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff3ee;
+  font-size: 1rem;
+}
+
+.white-page{
+  background-color: #fff3ee;
+}
+
+.colored-page{
+  background-image: linear-gradient(to right top, #d97e57, #d37f5c, #cd8161, #c68265, #c0836a, #c18c71, #c3957a, #c49e83, #ceb194, #d7c4a6, #e2d6bb, #ede9d0);
+}
+
+
+/** Navigation bar  **/
+
+.navbar{
+  background-image:linear-gradient(to right top, #d37f5c, #cd8161, #c68265, #c0836a, #c18c71, #c3957a, #c49e83, #ceb194, #d7c4a6, #e2d6bb, #ede9d0);
+}
+
+.navbar-brand{
+  padding-left: 60px;
+}
+
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.2;
+}
+
+
+.navbar-nav > li > .dropdown-menu {     background-color: #d97e57; border-style: none; }
+.navbar-nav > li > .dropdown-menu a{   color: #fff; font-family: "Montserrat"; font-weight: 600;  }
+.navbar-nav > li > .dropdown-menu a:hover { background-color: #DFAA93;}
+
+
+/** Title **/
+
+#Accueil{
+  padding: 3% 5% 5% 5%;
+}
+
+.title, .sub-title{
+  text-align: left;
+}
+
+.accueil-carousel-img{
+  width: 25rem;
+  height: 38rem;
+  box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+
+}
+
+.image-box{
+  background-color: transparent;
+  padding-left: 20%;
+}
+
+.logo{
+  width: 6rem;
+}
+
+
+.musique-accueil{
+  padding-top: 3%;
+  margin-right: 6rem;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #DFAA93
+  }
+
+  audio {
+    height: 1.5rem;
+    width: 14rem;
+  }
+
+
+/** Row of Intro pictures **/
+
+#row-pictures-accueil .container-fluid {
+  padding: 7% 5%;
+}
+
+#row-pictures-accueil h2{
+  color: #d97e57;
+  font-size: 1.5rem;
+}
+
+
+.box-3pics{
+  padding: 3% 2% 5% 2%;
+}
+
+.row-pictures{
+  width: 25rem;
+  height: 15rem;
+  box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+
+}
+
+.first-row-intro{
+  padding: 3% 3% 0% 3%;
+  margin-right: 0;
+}
+
+.pic-monument{
+  margin-top: 3.5rem;
+}
+
+.text-detailed1-intro{
+  text-align: left;
+  margin-top: 1.5rem;
+}
+
+.text-detailed2-intro{
+  text-align: left;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+}
+
+.Textintro{
+  line-height: 1.6;
+}
+
+/** Les acteurs **/
+
+.acteurs-box{
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.acteurs-img-box{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.acteur-name{
+text-decoration: none;
+color: #d97e57;
+padding-bottom: 20%;
+}
+
+.acteur-box{
+  padding-bottom: 3%;
+}
+
+.trait-acteurs{
+  border: solid #d97e57 6px;
+  border-bottom: none;
+  width: 40%;
+  margin-left: 17rem;
+}
+
+a:hover{color:#DFAA93;}
+
+
+/** Les lieux **/
+
+
+#les-lieux{
+  padding-top: 6%;
+}
+
+.texte-box-les-lieux{
+  text-align: center;
+}
+
+.titre-les-lieux{
+  color: #d97e57;
+  padding-bottom: 4%;
+}
+
+.texte-les-lieux{
+  color: #d97e57;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.bigbox1-les-lieux{
+  position: relative;
+  padding-left: 8.5%;
+  padding-top: 3%;
+}
+
+.bigbox2-les-lieux{
+  position: relative;
+  padding-left: 0%;
+  padding-top: 3%;
+}
+
+  .box1-les-lieux {
+    background-color: #d97e57;
+    width: 30rem;
+    height: 20.5rem;
+    padding-top: 8%;
+
+  }
+
+  .title-box-les-lieux {
+    color:  #fff3ee;
+    font-size: 150%;
+
+  }
+
+  .photolieux {
+    width: 20rem;
+    height: 13.6rem;
+    box-shadow: 4px 5px 10px 5px rgba(20,20,20,0.4);
+  }
+
+  .box2-les-lieux {
+    background-color: #c18c71;
+    width: 30rem;
+    height: 20.5rem;
+    padding-top: 8%;
+  }
+
+
+
+/** Parcours **/
+
+#parcours {
+  padding-top: 3%;
+}
+
+.title.parcours{
+  color: #d97e57;
+  padding-bottom: 0%;
+  margin-left: 5rem;
+}
+
+.boxpicturecarre{
+  width: 20rem;
+  height: 20rem;
+  box-shadow: 4px 5px 10px 10px rgba(20,20,20,0.4);
+}
+
+.box-parcours-legend-text {
+margin-top: 3rem;
+margin-bottom: 4rem;
+}
+
+.boximage-parcours {
+  width: 40rem;
+  height: 25rem;
+}
+
+/** Focus  **/
+
+.title-focus{
+  color: #d97e57;
+  text-align: left;
+  padding-top: 5%;
+}
+
+.boxpicturerectangle{
+  width: 29.75rem;
+  height: 20rem;
+  right: 0.01rem;
+}
+
+.coloredbox1{
+  width: 29.75rem;
+  height: 20rem;
+  background-color: #cd8161;
+}
+
+.coloredbox2{
+  width: 29.75rem;
+  height: 20rem;
+  background-color: #d7c4a6;
+}
+
+.blop{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.boxy{
+  position: relative;
+}
+
+.legend{
+  position: absolute;
+  top: 17rem;
+  right: 5rem;
+  font-style: "Montserrat";
+  color: #fff3ee;
+  font-weight: 600;
+}
+
+
+/** Ressources  **/
+
+
+.title-ressources{
+  color: #d97e57;
+  text-align: left;
+  padding-top: 5%;
+}
+
+.card-header{
+  background-color: #cd8161;
+  padding: 0%;
+}
+
+.card-body{
+background-color: #d7c4a6;
+height: 20rem;
+}
+
+.card-text{
+  font-family: "Montserrat";
+  color: #d97e57;
+  font-weight: 600;
+}
+
+
+/**  Acteurs html pages  **/
+
+.acteurspicturebox{
+  background-image: linear-gradient(to right top, #d97e57, #d37f5c, #cd8161, #c68265, #c0836a, #c18c71, #c3957a, #c49e83, #ceb194, #d7c4a6, #e2d6bb, #ede9d0);
+padding: 3rem 0rem;
+
+}
+
+.LMpicture {
+  width: 32.2rem;
+  height: 48.9rem;
+  box-shadow: 4px 5px 10px 10px rgba(20,20,20,0.4);
+  transition: transform .2s;
+}
+
+.LMpicture:hover {
+  transform: scale(1.8) translate(50%, 0%);
+}
+
+.ALpicture{
+  height: 30rem;
+  width: 20rem,
+}
+
+.acteurstext{
+  text-align: left;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.actext{
+  color: grey;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+#acteurspage h1{
+  color: #d97e57;
+  font-size: 850%;
+  font-family: 'Sacramento', cursive;
+  font-weight: 700;
+}
+
+#acteurspage.white-page{
+  padding-top: 5%;
+}
+
+.acteurslegend{
+  color: #fff3ee;
+}
+
+.accitation{
+  font-size: 250%;
+  font-family: 'Sacramento', cursive;
+  color: grey;
+  font-weight: 600;
+}
+
+.blip{
+  padding-bottom: 0px;
+}
+
+
+@media (max-width:990px){
+
+
+
+.title, .sub-title{
+  text-align: center;
+}
+
+.image-box{
+  position: static;
+  padding: 20%;
+}
+
+.bigbox-les-lieux{
+position:
+}
+}

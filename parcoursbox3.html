@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Service Militaire Auguste et Antoine</title>
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet, Bootstrap and Favicon -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon (2).ico">
+
+  <!-- Font Awesome -->
+
+  <script src="https://kit.fontawesome.com/cc4dcc56d7.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      background-image: linear-gradient(to right top, #d97e57, #d5815c, #d08460, #cc8665, #c7896a, #c68d6f, #c59174, #c49579, #c69c7f, #c9a386, #cbaa8d, #ceb194);
+    }
+
+    .title-parcours {
+      padding-top: 10%;
+      padding-bottom: 1%;
+    }
+
+    .textcarte {
+      font-family: 'Sacramento', cursive;
+      font-size: 200%;
+      color: #434144;
+      font-weight: 600;
+    }
+
+    .image-box {
+      background-image: linear-gradient(to right top, #e05b22, #d25f2a, #c46232, #b7643a, #a96542, #a86a47, #a76e4d, #a67353, #b27d58, #bd885e, #c89363, #d39e69);
+      padding: 10rem 0rem;
+    }
+
+    .image-boxms {
+      background-image: linear-gradient(to right top, #e05b22, #d25f2a, #c46232, #b7643a, #a96542, #a86a47, #a76e4d, #a67353, #b27d58, #bd885e, #c89363, #d39e69);
+      padding: 5rem 0rem;
+    }
+
+    .text-box {
+      height: 40rem;
+      text-align: left;
+      padding-top: 3%;
+    }
+
+    .text-box1 {
+      height: 40rem;
+      text-align: left;
+      padding-top: 1%;
+    }
+
+    .Pica {
+      padding: 20px;
+      width: 18rem;
+      height: 18rem;
+      box-shadow: 4px 5px 10px 10px rgba(20, 20, 20, 0.4);
+    }
+
+    .picms {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 15rem;
+      height: 20rem;
+      margin-left: 3rem;
+    }
+
+    .pich {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 30rem;
+      height: 20rem;
+    }
+
+    .picv {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 20rem;
+      height: 30rem;
+    }
+
+    .picrot-15 {
+      transform: rotate(-15deg);
+    }
+
+    .ppich {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 20rem;
+      height: 14rem;
+    }
+
+    .PicConscrits {
+      width: 36rem;
+      height: 24rem;
+    }
+
+
+    .audiobutton {
+      padding-bottom: 3%;
+    }
+
+    audio::-webkit-media-controls-panel {
+      background-color: #DFAA93
+    }
+
+    audio {
+      height: 1.5rem;
+      width: 14rem;
+    }
+
+
+    @media (max-width:990px) {
+
+      .Pic1a,
+      .Pic1b {
+        position: static;
+        transform: rotate(0);
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <a href="box-page1"></a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid navigation-accueil blip">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="images/logo1.png" alt="logo-img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html#introduction">INTRODUCTION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#les-acteurs">LES ACTEURS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#leslieux">LES LIEUX</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#parcours">PARCOURS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#focus">FOCUS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#Ressources">RESSOURCES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PLAN DES TRANCHEES</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page -->
+  <div class="container-fluid">
+    <h1 class="title-parcours">Service Militaire Auguste et Antoine</h1>
+    <div class="audiobutton">
+      <audio id="audio" controls>
+        <source src="audios/17.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="texte-parcours">En Octobre 1913, deux ans après le retour de Gabriel, c’est au tour d’Auguste et Antoine de partir pour le service militaire ( au centre, premier rang sur la photo ). Cette année-là et pour le village de la
+          Crouzille, ils sont dix conscrits. Les deux frères partent pour Epinal et rejoignent un régiment légendaire à l’époque, le 17e d’infanterie. Ecoutez-donc la chanson composée quelques années plus tôt par Montehus, le "chantre des masses
+          populaires" …
+        </h3>
+        <br>
+        <h3 class="texte-parcours">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="PicConscrits" src="images/imagesbox/Box3/PicConscrits.JPG" alt="image">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3 class="texte-parcours" style="margin-right:5rem;">Après l'arrivée au régiment, s’ensuit un échange de cartes avec les frères, les parents et les sœurs dans lesquelles il parle de son métier de soldat et on lui donne des nouvelles du pays. On
+      y parle également beaucoup du travail des champs, et comme plus tard à la guerre, le soldat paysan pense toujours au pays, au passage des saisons, au temps qu'il fait pour les récoltes et au dur labeur qu'il doit laisser aux autres …</h3>
+    <br>
+    <br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic1a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic1b.jpg" alt="image">
+        </div>
+        <div class="col-lg-5 text-box1">
+          <h3 class="textcarte">Cher Antoine,</h3>
+          <br>
+          <h3 class="textcarte">Je pars le 8 pour le 172eme de ligne au fort de Parmont près de Belfort (Vosges).</h3>
+          <br>
+          <h3 class="textcarte">Nous parlerons de cela un de ces jours. J’irai te voir chez toi car je ne pense pas aller un dimanche à Marcillat.</h3>
+          <br>
+          <h3 class="textcarte">C Noel.</h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h3 class="texte-parcours">Comme toutes les nouvelles recrues du 17e, les deux jumeaux sont d’abord basés au camp de Valdohon avant de rejoindre la caserne à Epinal. Dès leur arrivée à la caserne, ils commencent leur correspondance décrivant,
+        avec une certaine excitation, leur première expérience du métier de soldat …</h3>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-5 text-box" style="height:48rem">
+          <h3 class="textcarte">Chers parents,</h3>
+          <br>
+          <h3 class="textcarte">J’ai reçu votre lettre jeudi, je suis content que tout va bien chez nous et à chez Chamard.</h3>
+          <br>
+          <h3 class="textcarte">Pour nous, tout va bien. Aujourd’hui, nous avons fait une marche d’une douzaine de kilomètres avec tout le fourbis. Nous sommes pas fatigués. Nous avons vu un peu le pays. Le pays n’est pas mal, pas beaucoup de
+            culture, ils font beaucoup d’élevage.</h3>
+          <br>
+          <h3 class="textcarte">On nous a demandé les certificats d’études, vous nous les enverrez le plus tôt possible. Nous vous enverrons nos habits dimanche prochain, nous vous écriront en même temps. C’est tout pour le moment et un bonjour de
+            tous.</h3>
+          <br>
+          <h3 class="textcarte">Antoine</h3>
+          <br>
+          <h3 class="textcarte">… Vous remercierez bien le père Garçon, je m’attendais pas de ça … vous me direz si la voiture que j’ai réparée va bien … vous raconterez un peu ce qu’il y a de nouveau au pays …</h3>
+        </div>
+        <div class="col-lg-7 image-box" style="height:48rem">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic5a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic5b.jpg" alt="image">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic6a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic6b.jpg" alt="image">
+        </div>
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Chers parents,</h3>
+          <br>
+          <h3 class="textcarte">Je vous envoie de mes nouvelles pour en recevoir des vôtres. Pour nous ça va toujours bien, je pense que ce soit de même chez nous.</h3>
+          <br>
+          <h3 class="textcarte">Vous avez peut être pas fini d’ensemencer, vous avez été retardés par la maladie. Nous devons rentrer à Epinal le 20 du mois. Il fait toujours beau, il y a eu quelque brouillard, il y a pas eu de froid.</h3>
+          <br>
+          <h3 class="textcarte">Auguste a reçu un mandat de 20 francs de chez Chamard. On en avait pas besoin. Le jour de la Toussaint, nous avons été à Vêpres, nous avons pas pu sortir le matin.</h3>
+          <br>
+          <h3 class="textcarte">En attendant de vos nouvelles au plus tôt, je vous embrasse tous bien fort.</h3>
+          <br>
+          <h3 class="textcarte">Antoine</h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Chère sœur, </h3>
+          <br>
+          <h3 class="textcarte">Je t’envoie ma première carte du régiment, nous sommes tous les deux en très bonne santé, et je désire que vous soyez de même.</h3>
+          <br>
+          <h3 class="textcarte">Je te dirais que nous avons visité la ville dimanche avec Blanc d’Ars. C’est une ville à peu près comme Montluçon. Il y a de beaux magasins, mais ils vendent plus cher que chez nous. Nous avons passé une bonne soirée,
+            il faisait bien beau temps.</h3>
+          <br>
+          <h3 class="textcarte">Il ne fait pas froid, il n’a pas encore gelé. C’est bien moins froid qu’au camp, on ne tarde pas bien les matins en travaillant dans la cour. Nous sommes déjà mieux nourris qu’à Valdohon.</h3>
+          <br>
+          <h3 class="textcarte">Ton frère qui pense à toi, Auguste.</h3>
+          <br>
+          <h3 class="textcarte">Un bonjour à tous.</h3>
+        </div>
+        <div class="col-lg-7 image-box">
+          <img class="picv picrot-15" src="images/imagesbox/Box3/Pic3a.jpg" alt="image">
+          <img class="picv" src="images/imagesbox/Box3/Pic3b.jpg" alt="image">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic2a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic2b.jpg" alt="image">
+        </div>
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Chère sœur,</h3>
+          <br>
+          <h3 class="textcarte">Je fais réponse à ta carte que j’ai reçue avec plaisir, en apprenant que tu es en bonne santé. Et puis je vois que tu t’ennuies pas à l’école.</h3>
+          <br>
+          <h3 class="textcarte">Nous nous sommes toujours en bonne santé et le métier marche toujours bien. Maintenant, nous sommes installés à Epinal. Le pays est pas trop mal mais nos casernes ne sont pas encore finies, elles sont pleines de boue.
+          </h3>
+          <br>
+          <h3 class="textcarte">Nous sommes à trois kilomètres d’Epinal. On n’est encore pas sortis, ce n’est pas une grande ville.</h3>
+          <br>
+          <h3 class="textcarte">Ton frère,</h3>
+          <br>
+          <h3 class="textcarte">Auguste</h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-3">
+          <br>
+          <br>
+          <br>
+          <h3>Leçon sur le rationnement et le fusil Lebel  ...</h3>
+          <br>
+          <img src="images/imagesbox/Box2/Pica1.JPG" alt="image" style="width: 10rem;height: 14rem">
+        </div>
+        <div class="col-lg-3">
+          <img src="images/imagesbox/Box3/Picration.JPG" alt="image">
+        </div>
+        <div class="col-lg-3">
+          <img src="images/imagesbox/Box3/Picfusil1.JPG" alt="image">
+        </div>
+        <div class="col-lg-3">
+          <img src="images/imagesbox/Box3/Picfusil2.JPG" alt="image">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h3 class="texte-parcours">On voyage peu à cette époque, et partir au service c’est l’occasion de voir du pays. Sans doute, Augustine et Léa adorent recevoir ces images de contrées lointaines …</h3>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Chère filleule,</h3>
+          <br>
+          <h3 class="textcarte">Pardonne mois si je t’ai pas encore écris mais dans ce métier, on repousse toujours au lendemain. Nous sommes toujours en bonne santé, nous avons reçu votre lettre hier. Je vois que vous êtes tous en bonne santé. Pour
+            nous, le métier ne va pas trop mal.</h3>
+          <br>
+          <h3 class="textcarte">Cette semaine, on a fait deux petites marches, tous les matins on travaille dans la cour. Ces jours-ci, il ne fait pas bien beau temps, mais il fait moins froid qu’au camp.</h3>
+          <br>
+          <h3 class="textcarte">Ces deux jours, on a reçu les jeunes, ils ne sont encore pas habiles.</h3>
+          <br>
+          <h3 class="textcarte">Ton frère qui pense à toi.</h3>
+          <br>
+          <h3 class="textcarte">Auguste</h3>
+        </div>
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic4a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic4b.jpg" alt="image">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic7a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic7b.jpg" alt="image">
+        </div>
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Ma chère filleule,</h3>
+          <br>
+          <h3 class="textcarte">Je t’envoie une vue de Suisse où je suis allé dimanche.</h3>
+          <br>
+          <h3 class="textcarte">C’est un très beau pays, les gens sont très polis.</h3>
+          <br>
+          <h3 class="textcarte">Je te quitte en t’embrassant bien fort.</h3>
+          <br>
+          <h3 class="textcarte">Antoine</h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Ma chère Augustine,</h3>
+          <br>
+          <h3 class="textcarte">Je t’envoie une vue du beau pays que j’ai visité dimanche.</h3>
+          <br>
+          <h3 class="textcarte">J’en garde un bon souvenir, surtout des habitants.</h3>
+          <br>
+          <h3 class="textcarte">Antoine</h3>
+        </div>
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic8a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic8b.jpg" alt="image">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-7 image-box">
+          <img class="picv picrot-15" src="images/imagesbox/Box3/Pic9a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic9b.jpg" alt="image">
+        </div>
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Ton frère qui te souhaite une bonne et heureuse année.</h3>
+          <br>
+          <h3 class="textcarte">Auguste</h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Cher Cousin,</h3>
+          <br>
+          <h3 class="textcarte">A l’occasion du nouvel an, je viens t’offrir mes meilleurs vœux de bonne année.</h3>
+          <br>
+          <h3 class="textcarte">Ton cousin qui te serre cordialement la main.</h3>
+          <br>
+          <h3 class="textcarte">Felix Blanc</h3>
+        </div>
+        <div class="col-lg-7 image-box">
+          <img class="picv picrot-15" src="images/imagesbox/Box3/Pic10a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic10b.jpg" alt="image">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h3 class="texte-parcours">Début 1914 … Antoine envoie deux cartes montrant une « image d’Epinal « de la frontière de l’Est, un soldat allemand serrant la main d’un soldat français. Personne ne se doute que sept mois plus tard, la guerre sera
+        déclarée …</h3>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic11a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic11b.jpg" alt="image">
+        </div>
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Chère sœur,</h3>
+          <br>
+          <h3 class="textcarte">Je t’écris deux mots pour apprendre un peu ce que tu fais, je crois que tu fais pas beaucoup de travail.</h3>
+          <br>
+          <h3 class="textcarte">Je suis en bonne santé, je désire que tu sois de même. Moi je te dirais que je me fait pas bien de bile, aujourd’hui je n’ai rien fait.</h3>
+          <br>
+          <h3 class="textcarte">Antoine a lavé ce qu’on avait de sale, mois je me suis baladé dans la cour avec Félicien et Désiré. Les dimanches on sort, jamais il fait bien beau temps, mais le jour passe plus vite.</h3>
+          <br>
+          <h3 class="textcarte">Ton frère qui pense à toi.</h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Chère sœur,</h3>
+          <br>
+          <h3 class="textcarte">Je t’envoie ces quelques mots pour te donner de mes nouvelles. Je suis en bonne santé, je désire que tu sois de même.</h3>
+          <br>
+          <h3 class="textcarte">Nous avons eu froid pendant le mois de janvier, maintenant il fait très beau. Je pense te revoir à Pâques.</h3>
+          <br>
+          <h3 class="textcarte">Je termine en t’embrassant bien fort.</h3>
+          <br>
+          <h3 class="textcarte">Antoine</h3>
+        </div>
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic12a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic12b.jpg" alt="image">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-2">
+          <img src="images/imagesbox/Box3/Pictran1.JPG" alt="image">
+        </div>
+        <div class="col-lg-2">
+          <img src="images/imagesbox/Box3/Pictran2.JPG" alt="image">
+        </div>
+        <div class="col-lg-2">
+          <img src="images/imagesbox/Box3/Pictran3.JPG" alt="image">
+        </div>
+        <div class="col-lg-2">
+          <img src="images/imagesbox/Box3/Pictran4.JPG" alt="image">
+        </div>
+        <div class="col-lg-4">
+          <br>
+          <br>
+          <br>
+          <h3>Entretemps, quelques leçons de tranchées ...</h3>
+          <br>
+          <img src="images/imagesbox/Box2/Pica1.JPG" alt="image" style="width: 10rem;height: 14rem">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+
+
+      <div class="row">
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic13a.jpg" alt="image">
+          <img class="picv" src="images/imagesbox/Box3/Pic13b.jpg" alt="image">
+        </div>
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Chère filleule,</h3>
+          <br>
+          <h3 class="textcarte">Je t’écris deux mots pour te donner de mes nouvelles et en apprendre des tiennes.</h3>
+          <br>
+          <h3 class="textcarte">Moi je suis en bonne santé et je désire que tu en sois de même. Le métier marche assez bien.</h3>
+          <br>
+          <h3 class="textcarte">Malgré ces jours-ci, on nous passe tous les jours en revue, mais maintenant on y est bien habitué et on se fait pas trop de bile.</h3>
+          <br>
+          <h3 class="textcarte">Chère sœur, je te dirais qu’il fait bien beau à Epinal, il ne fait pas froid. Je termine en t’embrassant bien fort.</h3>
+          <br>
+          <h3 class="textcarte">Auguste</h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Chère sœur,</h3>
+          <br>
+          <h3 class="textcarte">Je viens de recevoir ta lettre sur laquelle tu m’apprends une nouvelle que je n’attendais pas. Maria m’en avait parlé dans sa dernière lettre, je pensais pas que c’était à ce point.</h3>
+          <br>
+          <h3 class="textcarte">Je vois que tu te débrouilles maintenant. Tu parles pour avoir une permission, j’avais 15 jours pour Pâques. Je ‘ai faite rayée ce matin afin que je puisse la prendre quand vous voudrez, il n’y aura pas de difficultés
+            pour cette occasion.</h3>
+          <br>
+          <h3 class="textcarte">Auguste n’est pas encore parti et ne sait pas quand il va partir. Nous aurons pas de difficultés pour avoir une permission.</h3>
+          <br>
+          <h3 class="textcarte">Tu m’excuses si je t’envoie qu’une carte. Dimanche, je vous écrirai une plus longue lettre.</h3>
+          <br>
+          <h3 class="textcarte">En attendant de vous revoir, je vous embrasse tous bien fort.</h3>
+          <br>
+          <h3 class="textcarte">Antoine</h3>
+        </div>
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic14a.jpg" alt="image">
+          <img class="picv" src="images/imagesbox/Box3/Pic14b.jpg" alt="image">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h3 class="texte-parcours">Deux cartes postales envoyées aux jumelles, pour leur expliquer en images la vie à la caserne ...</h3>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic15a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic15b.jpg" alt="image">
+        </div>
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Ma chère Augustine,</h3>
+          <br>
+          <h3 class="textcarte">Je t’envoie cette carte pour te donner de mes nouvelles. Je suis toujours en bonne santé, je désire que tu sois pareil.</h3>
+          <br>
+          <h3 class="textcarte">Tu ne vas pas tarder à revenir chez nous, maintenant qu’il va faire beau.</h3>
+          <br>
+          <h3 class="textcarte">En attendant de te revoir, je t’embrasse bien fort.</h3>
+          <br>
+          <h3 class="textcarte">Auguste</h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Ma chère Léa,</h3>
+          <br>
+          <h3 class="textcarte">Je t’envoie ces quelques mots pour te donner de mes nouvelles. Je suis toujours en bonne santé, je désire que ma carte te trouvera en bonne santé.</h3>
+          <br>
+          <h3 class="textcarte">Je pense que tu apprends toujours bien. Je pense te revoir à Pâques.</h3>
+          <br>
+          <h3 class="textcarte">En attendant, je t’embrasse.</h3>
+          <br>
+          <h3 class="textcarte">A bientôt.</h3>
+          <br>
+          <h3 class="textcarte">Antoine</h3>
+        </div>
+        <div class="col-lg-7 image-box">
+          <img class="picv picrot-15" src="images/imagesbox/Box3/Pic16a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic16b.jpg" alt="image">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h3 class="texte-parcours">Auguste et Antoine s'inquiètent des travaux des champs, parlent de permissions et bientôt commencent à compter les jours ...</h3>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-7 image-box" style="height:53rem">
+          <img class="picv picrot-15" src="images/imagesbox/Box3/Pic17a.jpg" alt="image">
+          <img class="picv" src="images/imagesbox/Box3/Pic17b.jpg" alt="image">
+        </div>
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Chère sœur,</h3>
+          <br>
+          <h3 class="textcarte">Je t’envoie ces quelques mots pour te donner de mes nouvelles et en recevoir des tiennes et celles du pays. Je suis toujours en bonne santé ainsi qu’Auguste, je désire que tu sois de même ainsi que tous.</h3>
+          <br>
+          <h3 class="textcarte">Chère sœur, je pense que tu vas toujours à Montaigut, mais ils auront besoin de toi pour travailler dans les champs. Tu m’as dit que le facteur s’était trompé. Cette fois, je l’envoie à chez Chamard.</h3>
+          <br>
+          <h3 class="textcarte">Chère sœur, tu sais que je devais envoyer un sac pour Louise Blanc et les deux petites sœurs, j’attendais que tu m’envoies le modèle. Tu m’en parlera dans ta prochaine lettre, je pourrai les apporter à Pâques, si j’ai une permission.</h3>
+          <br>
+          <h3 class="textcarte">Je vois pas autre chose à te dire pour le moment. Quand tu m’écriras, tu me raconteras un peu ce qui se passe au pays.</h3>
+          <br>
+          <h3 class="textcarte">Je termine en t’embrassant bien fort. Ton frère qui pense à toi.</h3>
+          <br>
+          <h3 class="textcarte">Antoine</h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-5 text-box" style="height:53rem">
+          <h3 class="textcarte">Ma chère sœur,</h3>
+          <br>
+          <h3 class="textcarte">Je t’écris ces deux mots pour t’appendre de mes nouvelles et en apprendre de toi et du pays, il y a que toi pour bien nous renseigner. Je suis toujours en bonne santé ainsi qu’Antoine.</h3>
+          <br>
+          <h3 class="textcarte">Je désire que tu en sois de même ainsi que toute la maison. Je te dirais que je me fais pas bien de mauvais sang, et surtout Antoine il va toujours aux cordonniers ( ?). Mois je va à l’exercice les matins et un peu le soir, on ne fait pas grand-chose.</h3>
+          <br>
+          <h3 class="textcarte">Tout le mois d’avril, il a fait beau temps, cette semaine il pleut un peu tous les jours.</h3>
+          <br>
+          <h3 class="textcarte">Chère sœur, on va bientôt demander les permissions. Moi je ne sais pas si j’en demanderai. Si je vois que je puisse avoir une permission agricole, je n’en demanderai pas maintenant . Vous n’avez pas beaucoup de travail, plus tard je pourrai vous aider pour les foins ou les moissons ….</h3>
+          <br>
+          <h3 class="textcarte">Ton frère qui pense à toi tous les jours et qui compte 497 jours à faire. Un bonjour à toute la maison.</h3>
+          <br>
+          <h3 class="textcarte">Auguste</h3>
+        </div>
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic18a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic18b.jpg" alt="image">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic19a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic19b.jpg" alt="image">
+        </div>
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Chers Parents,</h3>
+          <br>
+          <h3 class="textcarte">Je vous écris ces quelques lignes pour vous dire que je partirai pas pour la Pentecôte.</h3>
+          <br>
+          <h3 class="textcarte">Je n’aurais que eu 7 jours, le Capitaine m’a dit que il me donnerait 15 jours dans le courant du mois de juin, je préfère attendre.</h3>
+          <br>
+          <h3 class="textcarte">Auguste prendra sa permission agricole. Nous sommes en bonne santé pour le moment, j’espère que vous êtes tous pareils.</h3>
+          <br>
+          <h3 class="textcarte">Je termine en vous embrassant tous bien fort.</h3>
+          <br>
+          <h3 class="textcarte">Encore 480 jours et la …</h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-5 text-box" style="height:50rem">
+          <h3 class="textcarte">Chère filleule,</h3>
+          <br>
+          <h3 class="textcarte">Je t’écris ces deux mots pour te donner de mes nouvelles et en apprendre des tiennes. Je suis en très bonne santé ainsi qu'Antoine, je désire que tu sois de même ainsi que tous.</h3>
+          <br>
+          <h3 class="textcarte">Hier nous avons passé la revue, il faisait chaud. Nous l’avons passée à la vierge, c’est à cinq kilomètres des casernes, c’était pas bien pénible. On avait le sac, on était en capote, il y avait beaucoup de monde pour nous regarder.</h3>
+          <br>
+          <h3 class="textcarte">Nous sommes revenus, c’était midi. A la soupe, on nous a donné du mouton, des frites, de la salade, de la confiture, vin et café – et le soir aussi. Il faudrait tous les jours ça pour porter le sac (vivement qu’on la passe une autre fois).</h3>
+          <br>
+          <h3 class="textcarte">Je termine en t’embrassant bien fort. Bien le bonjour à tous (encore 430 jours à faire).</h3>
+          <br>
+          <h3 class="textcarte">Auguste</h3>
+        </div>
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic20a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic20b.jpg" alt="image">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-7 image-box">
+          <img class="pich picrot-15" src="images/imagesbox/Box3/Pic21a.jpg" alt="image">
+          <img class="pich" src="images/imagesbox/Box3/Pic21b.jpg" alt="image">
+        </div>
+        <div class="col-lg-5 text-box">
+          <h3 class="textcarte">Ma chère filleule,</h3>
+          <br>
+          <h3 class="textcarte">Me voici installé de nouveau à mon métier de soldat.</h3>
+          <br>
+          <h3 class="textcarte">Je suis en bonne santé, j’espère que ma carte te trouve de même.</h3>
+          <br>
+          <h3 class="textcarte">Ton frère qui t’embrasse bien fort.</h3>
+          <br>
+          <h3 class="textcarte">Antoine</h3>
+        </div>
+      </div>
+      <br>
+
+
+
+
+
+
+
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>

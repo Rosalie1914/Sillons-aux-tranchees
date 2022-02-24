@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>La Mobilisation</title>
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet, Bootstrap and Favicon -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon (2).ico">
+
+  <!-- Font Awesome -->
+
+  <script src="https://kit.fontawesome.com/cc4dcc56d7.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      background-image: linear-gradient(to right top, #d97e57, #d5815c, #d08460, #cc8665, #c7896a, #c68d6f, #c59174, #c49579, #c69c7f, #c9a386, #cbaa8d, #ceb194);
+    }
+
+    .title-parcours {
+      padding-top: 10%;
+      padding-bottom: 1%;
+    }
+
+    .textcarte {
+      font-family: 'Sacramento', cursive;
+      font-size: 200%;
+      color: #434144;
+      font-weight: 600;
+    }
+
+    .texte-legend {
+      font-size: 100%;
+    }
+
+    .image-box {
+      background-image: linear-gradient(to right top, #e05b22, #d25f2a, #c46232, #b7643a, #a96542, #a86a47, #a76e4d, #a67353, #b27d58, #bd885e, #c89363, #d39e69);
+      padding: 10rem 0rem;
+    }
+
+    .image-boxms {
+      background-image: linear-gradient(to right top, #e05b22, #d25f2a, #c46232, #b7643a, #a96542, #a86a47, #a76e4d, #a67353, #b27d58, #bd885e, #c89363, #d39e69);
+      padding: 5rem 0rem;
+    }
+
+    .text-box {
+      height: 30rem;
+      text-align: left;
+      padding-top: 3%;
+    }
+
+    .text-box1 {
+      height: 40rem;
+      text-align: left;
+      padding-top: 1%;
+    }
+
+    .text-boxprevert {
+
+      height: 64rem;
+      background-color: #fff3ee;
+      text-align: left;
+      padding-top: 3%;
+      padding-left: 3%;
+
+    }
+
+
+    .carousel-box {
+      background-image: linear-gradient(to right top, #e05b22, #d25f2a, #c46232, #b7643a, #a96542, #a86a47, #a76e4d, #a67353, #b27d58, #bd885e, #c89363, #d39e69);
+      padding: 1rem;
+    }
+
+    h4 {
+      color: #434144;
+    }
+
+    .Pica {
+      padding: 20px;
+      width: 18rem;
+      height: 18rem;
+      box-shadow: 4px 5px 10px 10px rgba(20, 20, 20, 0.4);
+    }
+
+    .Picc {
+      width: 70rem;
+      height: 20rem;
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+    }
+
+    .Picd {
+      width: 20rem;
+      height: 30rem;
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+    }
+
+    .Pice {
+      width: 25rem;
+      height: 37rem;
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+    }
+
+
+    .picms {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 15rem;
+      height: 20rem;
+      margin-left: 3rem;
+    }
+
+    .pich {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 30rem;
+      height: 20rem;
+    }
+
+    .pichis {
+      height: 30rem;
+      width: 20rem;
+    }
+
+    .picv {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 20rem;
+      height: 30rem;
+    }
+
+    .picrot-15 {
+      transform: rotate(-15deg);
+    }
+
+    .ppich {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 20rem;
+      height: 14rem;
+    }
+
+    .PicConscrits {
+      width: 36rem;
+      height: 24rem;
+    }
+
+    .piclaguerre {
+      width: 40rem;
+      height: 12rem;
+    }
+
+
+    .audiobutton {
+      padding-bottom: 3%;
+    }
+
+    audio::-webkit-media-controls-panel {
+      background-color: #DFAA93
+    }
+
+    audio {
+      height: 1.5rem;
+      width: 14rem;
+    }
+
+
+    @media (max-width:990px) {
+
+      .Pic1a,
+      .Pic1b {
+        position: static;
+        transform: rotate(0);
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <a href="box-page1"></a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid navigation-accueil blip">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="images/logo1.png" alt="logo-img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html#introduction">INTRODUCTION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#les-acteurs">LES ACTEURS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#leslieux">LES LIEUX</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#parcours">PARCOURS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#focus">FOCUS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#Ressources">RESSOURCES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PLAN DES TRANCHEES</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page -->
+  <div class="container-fluid">
+    <h1 class="title-parcours">A l' Ecole</h1>
+    <div class="audiobutton">
+      <audio id="audio" controls>
+        <source src="audios/Clairefontaine.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="images/imagesbox/Box1a/Picsacre.JPG" alt="img-sacre">
+      </div>
+      <div class="col-lg-8">
+        <br>
+        <br>
+        <h3 class="texte-parcours">Pour Augustine et Léa, les années d'avant-guerre sont les années d'école primaire. Elles sont encore petites et sans-doute fredonnent-elles A la Clairefontaine. Comme leurs frères sont allés à l'école des Frères à
+          Marcillat, elles vont à l'école des Soeurs à Montaigut : l'Institut du Sacré-Coeur.</h3>
+        <br>
+        <h3 class="texte-parcours">En terre des Combrailles, l'Eglise a une forte emprise et ce n'est pas à l'école communale que les paysans envoient les enfants. L'éducation prodiguée par les Soeurs est stricte et sans compromis, la discipline est
+          forte et les valeurs morales et religieuses occupent la première place. Et n'oublions pas que les deux soeurs jumelles sont en pensionat comme tous les élèves - à vol d'oiseau, Montaigut n'est pas loin du hameau des Raynauds mais avec des
+          sabottes aux pieds, sur des chemins de terre, au petit matin frileux où à la tombée de la nuit, on ne peut pas faire ce trajet tous les jours.</h3>
+        <br>
+        <h3 class="texte-parcours">Fort heureusement, Léa a gardé précieusement quelques'uns des ses cahiers et des cahiers d'Augustine, avec deux livres d'école. Oubliés pendant des années dans le grenier de la ferme, c'est avec émotion qu'on les
+          feuillete aujourd'hui ...</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="texte-parcours">Mais avant de feuilleter ces cahiers et ces livres, songeons un instant à ce qu'ils représentent pour nos deux petites paysannes. Ces cahiers font toute leur fierté, leur fierté d'apprendre à lire et à écrire en bon
+      français - à la maison, on parle en patois et sans doute les aieux savent-ils à peine lire et écrire. Ces livres, c'est peut-être les seuls livres à la maison. Alors oui, c'est précieux !</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-4">
+        <br>
+        <h3 class="texte-parcours">Le premier livre, c'est l'Histoire de France. Un bel ouvrage, et à bien des égards, un véritable livre d'histoires - on dit d'ailleurs qu'à l'époque les livres d'école était souvent lus à la veillée. Tout y est et
+          avec de beaux dessins : Vercingétorix
+          et la bataille de Gergovie, Roland et Durandal à Roncevaux, Bernard Passy brûlant ses meubles pour découvrir la céramique, Croquants et bête du Gevaudan, Napoléon tirant l'oreille des ses grognards ...</h3>
+        <br>
+        <h3>Avec beaucoup de foi dans l'avenir, on y parle aussi des progrès plus récents de la science et d'inventions formidables : le téléphone, l'electricité ...</h3>
+        <br>
+        <h3>On y évoque également l'histoire plus récente en entretenant l'espoir qu'Alsace et Lorraine reviendront dans le giron de la France. Et déjà plane la menace d'un conflit avec l'Allemagne ...</h3>
+      </div>
+      <div class="col-lg-8 carousel-box">
+        <div id="carousel-ecole" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis0.JPG" alt="First slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis1.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis2.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis3.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis4.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis5.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis6.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis7.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis8.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis9.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis10.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Pichis11.JPG" alt="Third slide">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ecole" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-ecole" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>C'est cette vision de la France que frères et soeurs ont en tête : une France bonne, sûre d'elle et de sa mission civilisatrice, une France pour laquelle on doit être prêt à se sacrifier.C'est armés avec ses idées et valeurs que les trois
+      frères partiront avec la guerre, et avec, à tort ou à raison, cette sorte de respect pathologique pour ceux qui sont plus instruits que soi. Cela est bien différent d'aujourd'hui et avec des régiments entiers fondus au même moule, il était sans
+      doute facile de maintenir la displine dans l'armée</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-8 carousel-box">
+        <div id="carousel-ecriture" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec1.JPG" alt="First slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec2.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec3.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec4.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec5.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec6.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec7.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec8.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec9.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec10.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec11.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec12.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec13.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec14.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec15.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec16.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec17.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec18.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec19.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec20.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec21.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec22.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picec23.JPG" alt="Third slide">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ecriture" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-ecriture" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-4 text-box">
+        <br>
+        <br>
+        <h3 class="texte-parcours">Le cahier du mardi d'Augustine, c'est le cahier d'écriture.</h3>
+        <br>
+        <h3>On y pratique la belle écriture en cursives, et on y répète à longueur de lignes les maximes et vertus des enfants sages</h3>
+        <br>
+        <h3>A coeur vaillant, rien d'impossible !</h3>
+        <br>
+        <h3>Tant vaut l'homme, tant vaut la terre !</h3>
+        <br>
+        <h3>L'obéissance est la plus belle vertu des enfants !...</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-4">
+        <br>
+        <h3 class="texte-parcours">Le second livre, c'est le Précis d'Histoire Sainte. Là encore, un livre rempli d'histoires et de gravures, de l'Ancien Testament au Nouveau Testament.</h3>
+        <br>
+        <h3>C'est sans doute plus agréable à lire que les saints évangiles, mais attention chaque chapitre est clos par une série d'exercices de révision. </h3>
+        <br>
+        <h3>Suffit-il, pour obtenir de Dieu le pardon de nos fautes, de les confesser et même de dire que nous les regrettons? Montrez, par un exemple tiré de l'Histoire Sainte, qu'il faut quelque chose de plus.</h3>
+        <br>
+        <h3>Montrez, par un exemple emprunté à l'Histoire Sainte, que la jalousie est un vice fort dangereux.</h3>
+      </div>
+      <div class="col-lg-8 carousel-box">
+        <div id="carousel-ecole1" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint1.JPG" alt="First slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint2.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint3.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint4.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint5.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint6.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint7.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint8.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint9.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint10.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint11.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint12.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picsaint13.JPG" alt="Third slide">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ecole1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-ecole1" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-8 carousel-box">
+        <div id="carousel-ecriture1" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic1.JPG" alt="First slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic2.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic3.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic4.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic6.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic7.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic8.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic9.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic10.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic11.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic12.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic13.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic14.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic15.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic16.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic17.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic18.JPG" alt="Second slide">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="pichis" src="images/imagesbox/Box1a/Picdic19.JPG" alt="Third slide">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ecriture1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-ecriture1" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-4 text-box">
+        <br>
+        <br>
+        <h3 class="texte-parcours">Le cahier de dictée de Léa, Ah !!! les dictées ...</h3>
+        <br>
+        <h3>Craintes par des générations d'élèves, elles vous font comme un creux dans l'estomac, et la maîtresse qui marche dans les rangs, que vous sentez se pencher sur votre épaule et qui soudain reprend :</h3>
+        <br>
+        <h3>“ … et la petiteee bergèère regardait l’horizon imemense devant elle … « </h3>
+        <br>
+        <h3>Et bien sûr, les mots mal écrits doivent être copiés encore, et encore, et encore ...</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-4">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 class="texte-parcours">Des deux jumelles, Léa semble être la plus studieuse - voici son bulletin mensuel de Juin 1914 qu'elle avait glissé dans les pages du livre d'Histoire.</h3>
+        <br>
+        <h3>Mais qu'il vente ou qu'il pleuve, qu'on aprenne bien ou non, on s'arrête au certificat d'études et rejoint la ferme pour aider au travail des champs et aux soins des bêtes.</h3>
+        <br>
+        <h3 class="texte-parcours">Bien caché dans le livre d'Histoire Sainte se trouvait aussi cet étrange tableau de présence ...</h3>
+      </div>
+      <div class="col-lg-4">
+        <img src="images/imagesbox/Box1a/Picbulletin.JPG" alt="img-sacre" style="margin-top: 9rem">
+      </div>
+      <div class="col-lg-4">
+        <img src="images/imagesbox/Box1a/Picpresence.JPG" alt="img-sacre">
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+
+    <br>
+    <br>
+
+
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-3 text-boxprevert">
+        <h4>En sortant de l'école</h4>
+        <h4>Nous avons rencontré</h4>
+        <h4>Un grand chemin de fer</h4>
+        <h4>Qui nous a emmenés</h4>
+        <h4>Tout autour de la terre</h4>
+        <h4>Dans un wagon doré.</h4>
+        <br>
+        <h4>Tout autour de la terre</h4>
+        <h4>Nous avons rencontré</h4>
+        <h4>la mer qui se promenait</h4>
+        <h4>Avec tous ses coquillages</h4>
+        <h4>Ses îles parfumées</h4>
+        <h4>Et puis ses beaux naufrages</h4>
+        <h4>Et ses saumons fumés.</h4>
+        <br>
+        <h4>Au-dessus de la mer</h4>
+        <h4>Nous avons rencontré</h4>
+        <h4>La lune et les étoiles</h4>
+        <h4>Sur un bateau à voiles</h4>
+        <h4>Partant pour le Japon</h4>
+        <h4>Et les trois mousquetaires</h4>
+        <h4>Des cinq doigts de la main</h4>
+        <h4>Tournant la manivelle</h4>
+        <h4>D'un petit sous-marin</h4>
+        <h4>Plongeant au fond des mers</h4>
+        <h4>Pour chercher des oursins.</h4>
+        <br>
+        <h4>Revenant sur la terre</h4>
+        <h4>Nous avons rencontré</h4>
+        <h4>Sur la voie de chemin de fer</h4>
+        <h4>Une maison qui fuyait</h4>
+        <h4>Fuyait tout autour de la terre</h4>
+        <h4>Fuyait tout autour de la mer</h4>
+        <h4>Fuyait devant l'hiver</h4>
+        <h4>Qui voulait l'attraper.</h4>
+      </div>
+      <div class="col-lg-3 text-boxprevert">
+        <h4>Mais nous sur notre chemin de fer</h4>
+        <h4>On s'est mis à rouler</h4>
+        <h4>Rouler derrière l'hiver</h4>
+        <h4>Et on l'a écrasé</h4>
+        <h4>Et la maison s'est arrêtée</h4>
+        <h4>Et le printemps nous a salués.</h4>
+        <br>
+        <h4>C'était lui le garde-barrière</h4>
+        <h4>Et il nous a bien remerciés</h4>
+        <h4>Et toutes les fleurs de toute la terre</h4>
+        <h4>Soudain se sont mises à pousser</h4>
+        <h4>Pousser à tort et à travers</h4>
+        <h4>Sur la voie de chemin de fer</h4>
+        <h4>Qui ne voulait plus avancer</h4>
+        <h4>De peur de les abîmer.</h4>
+        <br>
+        <h4>Alors on est revenu à pied</h4>
+        <h4>À pied, tout autour de la terre</h4>
+        <h4>À pied, tout autour de la mer</h4>
+        <h4>Tout autour du soleil</h4>
+        <h4>De la lune et des étoiles</h4>
+        <h4>À pied, à cheval, en voiture</h4>
+        <h4>Et en bateau à voiles.</h4>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="images/imagesbox/Box1a/JPrevert.jpg" alt="Prevert-img">
+        <h4 style="color:black;font-style:italic"> Poème - Paroles - Jacques PREVERT </h4>
+      </div>
+      <div class="col-lg-6">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 class="texte-parcours">Mais derrière cette éducation rigoureuse, Augustine et Léa ont sans doute des rêves d'enfants et une imagination fertile.</h3>
+        <br>
+        <br>
+        <h3 class="texte-parcours">En lisant le poème de Jacques Prévert, il est amusant de penser que le petit Jacques, enfant des villes, avait à peu près le même âge que les deux jumelles et était lui-aussi sur les bancs de l'école, à l'aube de la
+          Grande Guerre.</h3><br>
+        <br>
+        <h3 class="texte-parcours">Ecrit bien des années plus tard, En sortant de l'école reflète peut-être les rêves du petit Jacques, et qui sait ...  les rêves de nos deux petites ....</h3>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="audiobutton">
+          <audio id="audio" controls>
+            <source src="audios/Ecole.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+</body>
+
+</html
