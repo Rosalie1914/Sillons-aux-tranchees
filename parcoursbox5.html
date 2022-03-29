@@ -3,8 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Des Sillons aux Tranchées</title>
-
+  <title>Premières blessures</title>
 
   <!-- Google Fonts -->
 
@@ -23,34 +22,743 @@
 
   <script src="https://kit.fontawesome.com/cc4dcc56d7.js" crossorigin="anonymous"></script>
 
-<style media="screen">
+  <style>
+    body {
+      background-image: linear-gradient(to right top, #d97e57, #d5815c, #d08460, #cc8665, #c7896a, #c68d6f, #c59174, #c49579, #c69c7f, #c9a386, #cbaa8d, #ceb194);
+    }
 
-.retour{
-  margin-left: 0rem;
-}
+    .map {
+      background-image: url(images/imagesbox/Box5/map26Aout.jpg);
+      height: 90rem;
+    }
 
-</style>
+    .couv17 {
+      padding-top: 47rem;
+      padding-right: 5rem;
+    }
+
+    .couv98 {
+      padding-top: 10rem;
+    }
+
+    .mapChipotte {
+      background-image: url(images/imagesbox/Box5/ColdelaChipotte.jpg);
+    }
+
+    .mapXafevillers {
+      background-image: url(images/imagesbox/Box5/Xafevillers.jpg);
+    }
+
+    .mapStRemy {
+      background-image: url(images/imagesbox/Box5/StRemy.jpg);
+    }
+
+    .mapEMMarne {
+      background-image: url(images/imagesbox/Box5/MapEMMarne.jpg);
+    }
+
+    .PicChipotte {
+      padding-top: 25rem;
+      padding-right: 55rem;
+    }
+
+    .PicMarne {
+      padding-top: 0rem;
+      padding-right: 55rem;
+    }
+
+    .fraternite {
+      padding-left: 6.5rem;
+    }
+
+    .title-parcours {
+      padding-top: 10%;
+      padding-bottom: 1%;
+    }
+
+    .textcarte {
+      font-family: 'Sacramento', cursive;
+      font-size: 200%;
+      color: #434144;
+      font-weight: 600;
+    }
+
+    .texte-legend {
+      font-size: 100%;
+    }
+
+    .image-box {
+      background-image: linear-gradient(to right top, #e05b22, #d25f2a, #c46232, #b7643a, #a96542, #a86a47, #a76e4d, #a67353, #b27d58, #bd885e, #c89363, #d39e69);
+      padding: 10rem 0rem;
+    }
+
+    .image-boxms {
+      background-image: linear-gradient(to right top, #e05b22, #d25f2a, #c46232, #b7643a, #a96542, #a86a47, #a76e4d, #a67353, #b27d58, #bd885e, #c89363, #d39e69);
+      padding: 5rem 0rem;
+    }
+
+    .text-box {
+      height: 40rem;
+      text-align: left;
+      padding-top: 3%;
+    }
+
+    .text-box1 {
+      height: 40rem;
+      text-align: left;
+      padding-top: 1%;
+    }
+
+    .text-boxjourneaux {
+      height: 45rem;
+      text-align: center;
+    }
+
+    .text-boxdepart {
+      height: 25rem;
+      text-align: center;
+    }
+
+    .text-boxgiono2 {
+
+      height: 67rem;
+      background-color: #fff3ee;
+      text-align: left;
+      padding-top: 3%;
+
+    }
+
+    .text-boxgenevoix {
+
+      height: 60rem;
+      background-color: #fff3ee;
+      text-align: left;
+      padding-top: 3%;
+
+    }
+
+    .text-boxjmo17 {
+
+      height: 38rem;
+      background-color: #fff3ee;
+      text-align: left;
+      padding-top: 1.5%;
+
+    }
 
 
+
+    h4 {
+      color: #434144;
+    }
+
+    .Pica {
+      padding: 20px;
+      width: 18rem;
+      height: 18rem;
+      box-shadow: 4px 5px 10px 10px rgba(20, 20, 20, 0.4);
+    }
+
+    .Picc {
+      width: 70rem;
+      height: 20rem;
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+    }
+
+    .Picd {
+      width: 20rem;
+      height: 30rem;
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+    }
+
+    .Pice {
+      width: 25rem;
+      height: 37rem;
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+    }
+
+
+    .picms {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 15rem;
+      height: 20rem;
+      margin-left: 3rem;
+    }
+
+    .pich {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 30rem;
+      height: 20rem;
+    }
+
+    .picv {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 20rem;
+      height: 30rem;
+    }
+
+    .picrot-15 {
+      transform: rotate(-15deg);
+    }
+
+    .ppich {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 20rem;
+      height: 14rem;
+    }
+
+    .PicConscrits {
+      width: 36rem;
+      height: 24rem;
+    }
+
+    .piclaguerre {
+      width: 40rem;
+      height: 12rem;
+    }
+
+
+    .audiobutton {
+      padding-bottom: 3%;
+    }
+
+    audio::-webkit-media-controls-panel {
+      background-color: #DFAA93
+    }
+
+    audio {
+      height: 1.5rem;
+      width: 14rem;
+    }
+
+
+    @media (max-width:990px) {
+
+      .Pic1a,
+      .Pic1b {
+        position: static;
+        transform: rotate(0);
+      }
+
+    }
+
+    .cont {
+      height: 70px;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    .scroller {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: grid;
+      grid-template-columns: repeat(14, 300px);
+      gap: 0px;
+      animation: scrollLeft 25s linear infinite;
+    }
+
+    @keyframes scrollLeft {
+      to {
+        transform: translateX(-50%)
+      }
+    }
+
+    .img {
+      width: 300px;
+      height: 70px;
+    }
+  </style>
 </head>
 
 <body>
-<br>
-<br>
-<br>
-<h1>En travaux ... <a href="index.html">
-  <img class="logo retour" src="images/logo1.png" alt="logo-img">
-</a></h1>
-<br>
-<br>
-<h1>On charge</h1>
-<br>
-<br>
-<br>
-<iframe src="https://giphy.com/embed/JJUqiCoxbWuPqTHUe6" width="480" height="365" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/JJUqiCoxbWuPqTHUe6">via GIPHY</a></p>
+  <a href="box-page1"></a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid navigation-accueil blip">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="images/logo1.png" alt="logo-img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html#introduction">INTRODUCTION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#les-acteurs">LES ACTEURS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#leslieux">LES LIEUX</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#parcours">PARCOURS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#focus">FOCUS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#Ressources">RESSOURCES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PLAN DES TRANCHEES</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="cont">
+          <div class="scroller">
+            <div class="img"><img src="audios/Alsacechanson1.jpg" alt=""></div>
+            <div class="img"><img src="audios/Partition1.jpg" alt=""></div>
+            <div class="img"><img src="audios/Alsacechanson2.jpg" alt=""></div>
+            <div class="img"><img src="audios/Partition2.jpg" alt=""></div>
+            <div class="img"><img src="audios/Alsacechanson1.jpg" alt=""></div>
+            <div class="img"><img src="audios/Partition1.jpg" alt=""></div>
+            <div class="img"><img src="audios/Alsacechanson2.jpg" alt=""></div>
+            <div class="img"><img src="audios/Partition2.jpg" alt=""></div>
+          </div>
+        </div>
+        <br>
+        <div class="audiobutton">
+          <audio id="audio" controls>
+            <source src="audios/Alsace.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="col-lg-8">
+      </div>
+    </div>
+    <h1 class="title-parcours">Premières blessures</h1>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="texte-parcours">La France a un plan !... C’est écrit dans les livres d’histoire d’Augustine et Léa, depuis des années les nations européennes s’arment, cela risque de mal finir et il faudra bien qu’un jour notre Alsace et notre
+          Lorraine reviennent dans le giron de la patrie. Alors oui, la France a un plan !...</h3>
+        <br>
+        <br>
+        <h3 class="texte-parcours">C’est le plan XVII, concocté par le Maréchal Joffre. C’est avant tout un plan de mobilisation massive avec l’envoi des troupes sur l’Est de la France, des Vosges au Luxembourg. Ce plan sera un échec retentissant
+          avec les allemands débordant les armées françaises par la Belgique et de façon plus inquiétante, une tactique de guerre inappropriée face à la puissance de feu de l’artillerie ennemie et à ses mitrailleuses. Joffre n’aura d’autre choix que
+          d’ordonner la retraite dès le 24 Août avec un repli au sud de la Marne le 5 Septembre. L’armée française reprendra la main avec la bataille de la Marne, mais il s’en est fallu de peu que les allemands arrivent aux portes de Paris.</h3>
+        <br>
+        <br>
+        <h3 class="texte-parcours">Les trois frères se retrouvent rapidement aux premières loges du conflit. Basés au 17eme régiment d’infanterie à Epinal, Auguste et Antoine participent tout de suite à l’offensive sur l’Alsace comme prévu par le
+          plan XVII. Le 98eme régiment d’infanterie de Gabriel est également rattaché à la 1ere Armée qui a pour mission initiale de reprendre l’Alsace.</h3>
+        <br>
+        <br>
+        <h3 class="texte-parcours">Tout est écrit dans les journaux de marche des régiments et sur les cartes d’Etat major de l’époque et il est facile de retracer le parcours des trois frères sur ces mois d’Août et Septembre.</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row map">
+      <div class="col-lg-6 couv17">
+        <img src="images/imagesbox/Box5/JMOCouv17.jpg" alt="">
+      </div>
+      <div class="col-lg-6 couv98">
+        <img src="images/imagesbox/Box5/JMOCouv98.jpg" alt="">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="texte-parcours">Cette phase du conflit sera appelée la Guerre des frontières, et c’est encore une guerre de mouvement. Dans le secteur des Vosges, elle se déroule pour la plupart dans un paysage montagneux et de forêts. Imaginez un
+          instant, nous sommes au mois d’Août, il fait chaud et ça sent bon le sapin, sous-bois on marche sur des tapis moelleux d'aiguilles de pins et pour peu on chercherait à cueillir des myrtilles … seulement voilà, c’est à la guerre qu’on va …
+          quel choc ce doit être !</h3>
+        <br>
+        <br>
+        <h3 class="texte-parcours">Les évènements vont s’entraîner très vite et en l‘espace d’un peu plus d’un mois, les trois frères seront blessés …Preuve en est, la première carte envoyée par Antoine datée du 21 Août et qui n’arrive aux Raynauds
+          que le 7 Septembre, date à laquelle Auguste est déjà blessé.</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-5 text-box">
+        <h3 class="textcarte">Chers Parents,</h3>
+        <br>
+        <h3 class="textcarte">Je vous écris ces quelques mots pour vous dire que nous sommes en bonne santé. Je désire que vous soyez de même.</h3>
+        <h3 class="textcarte">Je vous embrasse bien fort.</h3>
+        <br>
+        <h3 class="textcarte">Antoine</h3>
+      </div>
+      <div class="col-lg-7 image-box">
+        <img class="pich picrot-15" src="images/imagesbox/Box5/Pic2a.jpg" alt="image">
+        <img class="pich" src="images/imagesbox/Box5/Pic2b.jpg" alt="image">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3>Le choix de la carte est très intéressant, à plusieurs titres. C’est une vue d’Alsace donc en territoire allemand à l’époque, un jour plus tard le régiment devra battre en retraite. On y voit un paysage bucolique avec des vaches … l’Auvergnat
+      est toujours curieux de découvrir les bêtes des autres régions françaises et sans doute les commentaires vont bon train quand la carte est lue à la ferme. Cette vision paisible et estivale tranche fortement avec la réalité des batailles dans
+      lesquelles le régiment est engagé, et déjà le soldat ne dit pas tout mais cherche avant tout à rassurer.</h3>
+    <br>
+    <h3>Enfin il y a une certaine ironie dans cette carte. Ce petit coin d’Alsace certes rejoindra la France après la guerre, mais durant la seconde guerre mondiale les allemands y installeront le seul camp de concentration du territoire français.
+    </h3>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-8 mapChipotte">
+        <img class="PicChipotte" src="images/imagesbox/Box5/CPChipotte.jpg" alt="image">
+      </div>
+      <div class="col-lg-4 text-box">
+        <h3 class="texte-parcours">Le premier blessé est donc Auguste, le 26 Août, à la bataille du col de la Chipotte. Ce col est alors une position stratégique puisqu’il commande l’accès à la route d’Epinal où se trouve une importante garnison
+          française.</h3>
+        <br>
+        <h3>Après une offensive initiale sur l’Alsace et la Lorraine, les 1ere et 2eme armées françaises subissent de lourdes pertes à Morhange, le 20 Août. Les armées allemandes contre-attaquent, épaulées par leur artillerie lourde. Les armées
+          françaises doivent alors battre en retraite et se replier sur la rive gauche de la Meurthe.</h3>
+        <br>
+        <h3>Le 17eme régiment d’infanterie est chargé de défendre le pont de Thiaville. Finalement, il doit céder la position et comme le reste des troupes, le régiment se replie sur le col de la Chipotte le 25 Août. On s’affronte dans la forêt avec
+          peu de visibilité, ce qui veut dire des combats d’infanterie et bien souvent au corps à corps et à la baionnette.</h3>
+        <br>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-4 text-box">
+        <br>
+        <br>
+        <h3>La participation du 17eme dans la bataille est minutieusement relatée dans le journal de marche des 25 et 26 Août. Ce jour-là, on compte sept morts, trente neuf blessés et dix-neuf disparus au régiment. C'est beaucoup pour un régiment de
+          1000 hommes !</h3>
+        <br>
+        <h3>La bataille durera jusqu’au 10 Septembre et fera plus de 4000 morts côté français, le double pour l’ennemi. Le Col de la Chipotte sera désormais appelé le "Trou de l’Enfer" par les soldats des deux pays.</h3>
+        <br>
+        <h3>Son importance est primordiale pour la suite du conflit et nombre d’historiens considèrent qu’en bloquant l’avancée des allemands dans les Vosges, elle contribua fortement au succès de la bataille de la Marne.</h3>
+      </div>
+      <div class="col-lg-4">
+        <img src="images/imagesbox/Box5/JMO17du26Aout.JPG" alt="">
+      </div>
+      <div class="col-lg-3 text-boxjmo17">
+        <h4>… Le corps d’armée est violement attaqué dès 3 heures du matin après une attaque de nuit de l’ennemi qui a été repoussée.</h4>
+        <br>
+        <h4>Le pont de Thiaville est défendu et maintenu jusqu’à 13 heures par le 17eme qui se replie en bon ordre au col de la Chipotte qu’il met en état de défense. Puis, avec ses éléments rassemblés, le 17eme reçoit l’ordre de soutenir la défense
+          de la Haute Veuveville. Le combat très meurtrier dura jusqu’à la nuit. Le régiment bivouaque au col de la Chipotte.</h4>
+        <br>
+        <h4>26 Août – Tués 7 Blessés 39 Disparus 19</h4>
+        <br>
+        <h4>Le colonel Brue tombe malade. Le capitaine Bassager prend le commandement du régiment.</h4>
+        <br>
+        <h4>Au petit jour, le combat reprend. Les éléments de la Veuveville battent en retraite par échelons et s’installent en position défensive au col de la Chipotte avec mission de tenir la vieille route. Le 17eme est attaqué en force par
+          l’ennemi venant de Thiaville par les cotes 409 et 423. Une charge à la baionnette repousse l’attaque et le 17eme reste sur ses positions et bivouaque à la Chipotte …</h4>
+      </div>
+      <div class="col-lg-1">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="texte-parcours">Auguste informe rapidement la famille, comme en atteste cette carte postale adressée à son oncle et qui arrive à Chez Chamard le 30 Août 1914.</h3>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-7 image-box">
+        <img class="pich picrot-15" src="images/imagesbox/Box5/Pic1a.jpg" alt="image">
+        <img class="pich" src="images/imagesbox/Box5/Pic1b.jpg" alt="image">
+      </div>
+      <div class="col-lg-5 text-box">
+        <h3 class="textcarte">Chers Oncle et Tante,</h3>
+        <br>
+        <h3 class="textcarte">Je viens d’être blessé à la jambe par une balle. Ce n’est pas grave, je marche presque seul. Je suis à Montferrand, on est arrivés hier soir. On était un train complet.</h3>
+        <h3 class="textcarte">Nous sommes très bien soignés et en bonne santé. Voici mon adresse : Auguste Bouchardon, 17e de ligne, 6eme Compagnie au séminaire de Montferrand.</h3>
+        <br>
+        <h3 class="textcarte">Auguste</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3>Très vite, Auguste est évacué sur Lyon</h3>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-5 text-box">
+        <h3 class="textcarte">Chers Parents,</h3>
+        <br>
+        <h3 class="textcarte">Je suis à l’hôpital depuis ce matin. Maintenant, ça va toujours de mieux en mieux. On va me sortir la balle un de ces jours.</h3>
+        <h3 class="textcarte">Je pense pas rester longtemps à l’hôpital. On y est bien soigné et bien nourri, il fait bien beau temps. Je me fais pas trop de mauvais sang. Je termine en vous embrassant tous bien fort.</h3>
+        <br>
+        <h3 class="textcarte">Auguste, 17e de ligne à l’hôpital des Genets. 1er blessé à Lyon </h3>
+      </div>
+      <div class="col-lg-7 image-box">
+        <img class="pich picrot-15" src="images/imagesbox/Box5/Pic4a.jpg" alt="image">
+        <img class="picv" src="images/imagesbox/Box5/Pic4b.jpg" alt="image">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-7 image-box">
+        <img class="pich picrot-15" src="images/imagesbox/Box5/Pic3a.jpg" alt="image">
+        <img class="picv" src="images/imagesbox/Box5/Pic3b.jpg" alt="image">
+      </div>
+      <div class="col-lg-5 text-box">
+        <h3 class="textcarte">Chers Oncle et Tante,</h3>
+        <br>
+        <h3 class="textcarte">Je suis arrivé à Lyon depuis hier. J’ai fait un bon voyage, ça n’a pas été trop long. Ma blessure va assez bien.</h3>
+        <h3 class="textcarte">On m’a affecté dans une compagnie avec les réservistes. Je pense que je vais aller à l’hôpital. On est assez bien nourris, le dépôt est dans un grand lycée. Il y a deux bataillons de réserve et les jeunes de la Classe 14
+          demain.</h3>
+        <h3 class="textcarte">Je vous enverrai mon adresse.</h3>
+        <br>
+        <h3 class="textcarte">Auguste</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3>Auguste n'oublie pas son frère jumeau resté à la guerre.</h3>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-5 text-box">
+        <h3 class="textcarte">Cher Frère,</h3>
+        <br>
+        <h3 class="textcarte">Me voilà arrivé depuis hier au dépôt à Lyon. Je suis dans une compagnie avec les réservistes. Ma blessure va assez bien.</h3>
+        <h3 class="textcarte">Je désire que ma carte te trouve de même. Je pense que je vais rester à l’hôpital, je ne te donne pas mon adresse. J’ai trouvé Bourgier, il vient me voir tous les jours.</h3>
+        <br>
+        <h3 class="textcarte">Ton frère, Auguste</h3>
+      </div>
+      <div class="col-lg-7 image-box">
+        <img class="pich picrot-15" src="images/imagesbox/Box5/Pic6a.jpg" alt="image">
+        <img class="picv" src="images/imagesbox/Box5/Pic6b.jpg" alt="image">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-8 mapXafevillers">
+        <img class="PicChipotte" src="images/imagesbox/Box5/Xafpic.jpg" alt="image">
+      </div>
+      <div class="col-lg-4 text-box">
+        <h3 class="texte-parcours">Le second blessé est Gabriel, le 9 Septembre sur la commune de Xaffévillers. Bien que Gabriel n’ait alors aucun contact avec ses deux frères, il ne se trouve pas à plus de 10 kilomètres à vol d’oiseau du col de la
+          Chipotte.</h3>
+        <br>
+        <h3>Depuis la fin du mois d’Août, le 98eme régiment d’infanterie est alors engagé dans une sorte de jeu du chat et les souris avec les allemands – embuscades, offensives, contre-offensives et retraites tactiques.</h3>
+        <br>
+        <h3>Le 8 septembre, l'attaque générale des positions ennemies est ordonnée pour le lendemain. Le 9, à 2 h 30 du matin, le régiment se met en mouvement. Sa mission est d'enlever Xaffévillers et de pénétrer profondément dans le bois du
+          Grand-Bras.</h3>
+        <br>
+        <h3>Malheureusement, l’ennemi, d’abord surpris, se reprend vite et cette offensive sur Xaffévillers sera meurtrière comme en atteste le Journal de Marche du 98eme.</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="images/imagesbox/Box5/JMO98du9Sept1.jpg" alt="image">
+      </div>
+      <div class="col-lg-6">
+        <img src="images/imagesbox/Box5/JMO98du9Sept2.jpg" alt="image">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3 class="texte-parcours">Il n'y a pas de carte de Gabriel informant de sa blessure, en revanche on trouve mention de celle-ci dans une carte écrite par son oncle à Antoine.</h3>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-7 image-box">
+        <img class="picv picrot-15" src="images/imagesbox/Box5/Pic8a.jpg" alt="image">
+        <img class="pich" src="images/imagesbox/Box5/Pic8b.jpg" alt="image">
+      </div>
+      <div class="col-lg-5 text-box">
+        <h3 class="textcarte">Mon cher neveu,</h3>
+        <br>
+        <h3 class="textcarte">Je vous envoie de nos nouvelles, nous sommes tous en bonne santé. Nous avons Marie avec nous.</h3>
+        <h3 class="textcarte">Nous avons des nouvelles de Gabriel, il est à Lyon blessé au bras. Votre père et Maria est allé le voir, ainsi que Auguste. Tâche de te soigner de ton mieux et de ne pas oublier la Sainte Vierge.</h3>
+        <h3 class="textcarte">Dans ce moment d’épreuve, elle te donnera courage et protection.</h3>
+        <br>
+        <h3 class="textcarte">Bouquillat</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3>Une fois encore les évènements se précipitent. La lettre envoyée par son oncle à Antoine est datée du 19 Septembre. La famille ne le sait pas encore, mais à cette date Antoine a déjà été blessé depuis cinq jours !</h3>
+    <br>
+    <h3>Antoine n’est d’ailleurs plus dans les Vosges. Quelques jours après la bataille du col de la Chipotte, l’Etat Major a ordonné le déplacement du 17eme régiment d’infanterie en renfort des troupes massées sur les bords de la Marne. En effet,
+      après la grande retraite engagée dès fin Août suite à l’échec du plan XVII, Joffre a décidé d’arrêter l’offensive allemande coûte que coûte sur la Marne.</h3>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-4 text-box">
+        <h3 class="texte-parcours"></h3>
+        <br>
+        <h3>Après les combats dans les montagnes et forêts, c’est un paysage de plaine que découvre Antoine. En Champagne crayeuse, on voit à perte de vue et la marche des colonnes de fantassins soulève des nuages de poussière blanche. Pas de bétail
+          ici, mais une terre plutôt pauvre en ce début de XXeme siècle.</h3>
+        <br>
+        <h3>La bataille de la Marne aura lieu du 5 au 12 Septembre. Face à face, 760,000 soldats français et 680,000 soldats allemands. La victoire marquera l’échec définitif du plan Schlieffen, mais épuisées et affaiblies les troupes françaises ne
+          pourront pas poursuivre efficacement les troupes allemandes qui résisteront sur le front de l’Aisne. Cette partie du front se stabilisera avec les armées s’enterrant dans les tranchées.</h3>
+        <br>
+        <h3>Le bilan est lourd. Du côté français : 21.000 tués, 111.363 blessés, 83.409 disparus. Du côté allemand : 43.000 tués, 173.000 blessés, 40.000 disparus.</h3>
+      </div>
+      <div class="col-lg-8 mapEMMarne">
+        <img class="PicMarne" src="images/imagesbox/Box5/LegendMapEMMarne.jpg" alt="image">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-lg-8 mapStRemy">
+        <img class="PicChipotte" src="images/imagesbox/Box5/PicMarne.jpg" alt="image">
+      </div>
+      <div class="col-lg-4 text-box">
+        <h3 class="texte-parcours"></h3>
+        <br>
+        <h3>Rattaché au 21eme Corps d’armée, le 17eme régiment d’infanterie participe à la bataille de Vitry, l’une des batailles décisives de la contre-offensive française sur la Marne. Cette fois-ci, bien épaulés par leur artillerie, les fantassins
+          prennent le dessus sur les allemands.</h3>
+        <br>
+        <h3>Antoine est blessé le 14 Septembre dans les environs de Suippe alors que le 17eme poursuit l’armée allemande en retraite. Comme en atteste le journal de marche du régiment, ce jour là les combats sont particulièrement violents, avec des
+          pertes considérables pour le 17eme : 29 tués, 248 blessés et 82 disparus. Cela représente environ un tiers du régiment !</h3>
+        <br>
+        <h3></h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="images/imagesbox/Box5/JMO17du10Sept1.JPG" alt="">
+      </div>
+      <div class="col-lg-4 text-boxjmo17">
+        <h4>13 Septembre – Tués 1, Blessés 8, Disparus 3</h4>
+        <br>
+        <h4>L’ordre d’opération prescrit la continuation de la poursuite. Le gros des Corps d’Armée de la 4ème Armée doivent atteindre Suippes – Ste Menehould. Le 21ème CA marche sur Somme-Suippe. A sa droite, le 17ème CA sur Somme-Tourbe. A sa
+          gauche, le 11ème CA sur Sommepy.</h4>
+        <br>
+        <h4>Le 17ème régiment se met en marche à 5 heures sur Saint-Remy. Après un combat d’artillerie, le 17ème régiment atteint Somme-Suippe où il bivouaque.</h4>
+        <br>
+        <h4>Aucun évènement à signaler.</h4>
+        <br>
+        <h4>14 Septembre – Tués 29, Blessés 248, Disparus 82</h4>
+        <br>
+        <h4>L’ordre d’opération prescrit la continuation de la poursuite. Le 17ème régiment placé en avant-garde de la 13ème Division se met en marche dans la direction du nord. Il est arrêté sur la ligne Souain-Perthes-lès-Hurlus par l’ennemi
+          formidablement retranché. Tentant d’enlever la crête Sud-Est de Souain, il est accueilli par des rafales d’artillerie, de mitrailleuse et l’infanterie qui l’empêche de progresser.</h4>
+        <br>
+        <h4>Le régiment bivouaque. Les pertes sont élevées, environ 80 tués (dont un officier) et blessés et disparus.</h4>
+      </div>
+      <div class="col-lg-4">
+        <img src="images/imagesbox/Box5/JMO17du14Sept2.JPG" alt="">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="texte-parcours">Nous sommes seulement à la mi-Septembre, mais dans les quarante jours qui viennent de s’écouler les trois frères sont devenus combattants, ils ont été blessés, ont échappé à la mort et ont déjà vieilli. Ils ont vu nombre de leurs camarades mourir sur le champ de bataille. Ils savent les horreurs de la guerre et ils savent leur chance d’y échapper pour un temps.</h3>
+    <br>
+    <h3 class="texte-parcours">Les morts et les blessés sont vite remplacés par les nouvelles classes, les comptes en hommes des régiments remis en ordre et la machine de guerre, terrible convoyeuse d’hommes, s’est mis en branle … Mais eux, ils savent ce qui attend les nouvelles recrues …</h3>
+    <br>
+    <h3 class="texte-parcours">Ce sentiment est très bien décrit dans ces quelques pages de Ceux de 14 de Maurice Genevoix, sans doute le plus beau livre écrit sur la guerre de 14-18. Comme les trois frères, Maurice Genevoix, alors sous-officier, a combattu dès le début dans les Vosges, a vécu la même retraite initiale et a très tôt  mesuré l’énorme gâchis humain de cette aventure.</h3>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-6 text-boxgenevoix">
+        <h4>… Il n’y avait personne sur la route. J’ai marché longtemps sans penser à rien, n’éprouvant que la joie de marcher parmi les arbres. Et voici qu’à un tournant, très loin, une troupe d’hommes apparut, s’allongea, ondula à ma rencontre. Son
+          allure était lasse, presque accablée : ce devait être une troupe de vieux territoriaux, une compagnie de travailleurs qui rentrait au cantonnement, une fois achevée la besogne du jour.</h4>
+        <h4>J’approchais, étonné de ne point reconnaître les silhouettes épaisses et frustes, le profil des outils jetés sur les épaules. Les corps de ces hommes m’apparaissaient fluets, à peine virils. Et quand, plus près encore, je pus distinguer
+          les visages, je m’aperçus que c’étaient des visages d’enfants, de chairs rondes, mais lasses et meurtries, comme salies d’une excessive fatigue. Un officier marchait à leur tête. Il me reconnut, s’exclama :</h4>
+        <h4>« Toi ici !... Tu as déserté, ou quoi ? »</h4>
+        <h4>C’était le grand Sève, de la 1ere. Arrêté, les bras ouverts, il maintenait le troupeau fourbu dont les rangs refluaient mollement dans le bruit des chaussures traînées. Je lui demandai :</h4>
+        <h4>« Classe 14 ? </h4>
+        <h4>_ Tu vois », me dit-il.</h4>
+        <br>
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="images/imagesbox/Box5/LaMarche.jpg" alt="Marche-img">
+          </div>
+          <div class="col-lg-6">
+            <h4>Et plus bas, avec une moue.</h4>
+            <h4>« C’est plein de bonne volonté, ça veut bien faire … Mais ça ne tient pas, ça se vanne toute de suite … Trop jeunes : réellement trop. »</h4>
+            <h4>Et c’était vrai. Une surprise pénible me tenait au bord de la chaussée, immobile, tandis qu’ils défilaient, derrière Sève. Leurs capotes trop larges glissaient à leurs épaules. Le sac haut monté leur écrasait la nuque : ils tendaient
+              le coup et regardaient la route fixement, les uns pâles et les yeux creux, d’autres trop rouges, et de grosses gouttes de sueur aux tempes malgré le froid que le soir avivait.</h4>
+          </div>
+        </div>
+        <br>
+        <h4>Quelques sous-officiers marchaient au flanc de la colonne. Et de ceux-là je reconnaissais les visages hâlés, les pommettes sèches, d’allure tranquille et longue. Ceux-là se ressemblaient entre eux. Je les avais quittés le matin, j’allais
+          les retrouver tout à l’heure. Depuis des mois ils étaient les seuls hommes avec qui j’eusse vécu, hommes de toutes classes, de toutes provinces, chacun lui-même parmi les autres, mais tous guerriers sous leurs vieilles défroques aux plaques
+          d’usure identiques, sous le harnais de cuirs ternes, sous la visière avachie des képis – des guerriers fraternels par l’habitude de souffrir et de résister dans leur chair, par quelque chose de courageux et de résigné qui les « incorporait
+          » mieux encore que la misère de leur uniforme.</h4>
+        <h4></h4>
+        <h4></h4>
+      </div>
+      <div class="col-lg-6 text-boxgenevoix">
+        <h4>Tandis que les autres ! Tous ces jeunes qui passaient, rang par rang, à n’en plus finir ! Calicots, comptables, maraîchers des banlieues, vignerons champenois, ils étaient bruns ou blonds comme on l’était naguère, laids quelques-uns,
+          d’autres sales, d’autres restés jolis et se souvenant de l’être. Quatre par quatre ils se suivaient, apparus brusquement, disparus. J’aurais voulu tourner la tête, les mêler tous en un regard, les voir soldats comme cela devait être, et
+          secouer ainsi le douloureux malaise qui me tenait cloué sur le bord de cette route, m’obligeait à les voir les uns après les autres, à les compter malgré moi, quatre, et puis quatre, et puis quatre … jusqu’à quand ?</h4>
+        <h4>Voici qu’ils étaient là, de partout arrachés, mis en tas. On retrouvait sur eux, encore, des lambeaux de ce qu’avait été leur vie. « Mais nous ? me disais-je. Mais nous ? » … Ah ! nous, ce n’était pas la même chose. Le 2 Août, le délire
+          énorme, la rafale de folie tournoyant sur l’Europe entière, les trains hurlants, les mouchoirs frénétiques … En vérité, ce n’était pas la même chose.</h4>
+        <h4>Ceux-ci maintenant, après nous, bientôt comme nous, perdus … Et c’étaient des nôtres qui étaient allés vers eux, pour les « instruire », pour les mieux prendre …</h4>
+
+        <h4></h4>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <br>
+            <h4>Quatre ; et puis quatre … Ils défilaient toujours. Il devait y en avoir tout un bataillon. Derrière moi, au fond de la forêt, des coups de canon se boursouflaient lourdement : ils les entendaient de la tête aux pieds ; je les
+              entendais à cause d’eux.</h4>
+            <h4>C’était loin, encore loin. Mais ne savaient-ils pas qu’ils en étaient à la dernière halte, qu’on ne les lâcherait plus puisqu’on les avait pris , qu’il allait falloir avancer vers cela qu’on entendait, achever la dernière étape, être
+              arrivés ?</h4>
+            <h4>Et je me demandais avec un affreux serrement de cœur, en regardant cette foule harassée, ces reins ployés, ces fronts inclinés vers la terre, lesquels de ces enfants habillés en soldats portaient déjà, ce soir, leur cadavre sur leur
+              dos.</h4>
+            <h4></h4>
+          </div>
+          <div class="col-lg-6 fraternite">
+            <br>
+            <img src="images/imagesbox/Box5/Fraternite.JPG" alt="Fraternite-img">
+          </div>
+        </div>
+        <br>
+        <br>
+        <img src="images/imagesbox/Box5/Ceuxde14.jpg" alt="Ceuxde14-img">
+        <h4 style="color:black;font-style:italic"> Extraits - Ceux de 14 - Maurice GENEVOIX </h4>
+      </div>
+    </div>
 
 
 
+
+
+
+
+
+
+
+  </div>
 
 </body>
 
