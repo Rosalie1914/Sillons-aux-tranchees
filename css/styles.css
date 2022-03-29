@@ -431,3 +431,33 @@ padding: 3rem 0rem;
 position:
 }
 }
+
+/**  Music band **/
+
+.cont {
+  height: 70px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.scroller {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(14, 300px);
+  gap: 0px;
+  animation: scrollLeft 25s linear infinite;
+}
+
+@keyframes scrollLeft {
+  to {
+    transform: translateX(-50%)
+  }
+}
+
+.img {
+  width: 300px;
+  height: 70px;
+}
+
