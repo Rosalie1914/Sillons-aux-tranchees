@@ -3,8 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Des Sillons aux Tranchées</title>
-
+  <title>La Crouzille</title>
 
   <!-- Google Fonts -->
 
@@ -23,35 +22,830 @@
 
   <script src="https://kit.fontawesome.com/cc4dcc56d7.js" crossorigin="anonymous"></script>
 
-<style media="screen">
+  <style>
+    body {
+      background-image: linear-gradient(to right top, #d97e57, #d5815c, #d08460, #cc8665, #c7896a, #c68d6f, #c59174, #c49579, #c69c7f, #c9a386, #cbaa8d, #ceb194);
+    }
 
-.retour{
-  margin-left: 0rem;
-}
+    .italic {
+      font-style: italic;
+    }
 
-</style>
+    .map {
+      background-image: url(images/imagesbox/Box5/map26Aout.jpg);
+      height: 90rem;
+    }
+
+    .couv17 {
+      padding-top: 47rem;
+      padding-right: 5rem;
+    }
+
+    .couv98 {
+      padding-top: 10rem;
+    }
+
+    .mapChipotte {
+      background-image: url(images/imagesbox/Box5/ColdelaChipotte.jpg);
+      text-align: left;
+    }
+
+    .mapXafevillers {
+      background-image: url(images/imagesbox/Box5/Xafevillers.jpg);
+      text-align: left;
+    }
+
+    .mapStRemy {
+      background-image: url(images/imagesbox/Box5/StRemy.jpg);
+      text-align: left;
+    }
+
+    .mapEMMarne {
+      background-image: url(images/imagesbox/Box5/MapEMMarne.jpg);
+      text-align: left;
+    }
+
+    .PicChipotte {
+      padding-top: 25rem;
+    }
+
+    .PicMarne {
+      padding-top: 0rem;
+
+    }
+
+    .fraternite {
+      padding-left: 6.5rem;
+    }
+
+    .title-parcours {
+      padding-top: 10%;
+      padding-bottom: 1%;
+    }
+
+    .textcarte {
+      font-family: 'Sacramento', cursive;
+      font-size: 200%;
+      color: #434144;
+      font-weight: 600;
+    }
+
+    .texte-legend {
+      font-size: 100%;
+    }
+
+    .image-box {
+      background-image: linear-gradient(to right top, #e05b22, #d25f2a, #c46232, #b7643a, #a96542, #a86a47, #a76e4d, #a67353, #b27d58, #bd885e, #c89363, #d39e69);
+      padding: 10rem 0rem;
+    }
+
+    .image-boxms {
+      background-image: linear-gradient(to right top, #e05b22, #d25f2a, #c46232, #b7643a, #a96542, #a86a47, #a76e4d, #a67353, #b27d58, #bd885e, #c89363, #d39e69);
+      padding: 5rem 0rem;
+    }
+
+    .text-box {
+      height: 40rem;
+      text-align: left;
+      padding-top: 3%;
+    }
+
+    .text-box1 {
+      height: 40rem;
+      text-align: left;
+      padding-top: 1%;
+    }
+
+    .text-boxjourneaux {
+      height: 45rem;
+      text-align: center;
+    }
+
+    .text-boxdepart {
+      height: 25rem;
+      text-align: center;
+    }
+
+    .text-boxgiono2 {
+
+      height: 67rem;
+      background-color: #fff3ee;
+      text-align: left;
+      padding-top: 3%;
+
+    }
+
+    .text-boxgenevoix {
+
+      height: 60rem;
+      background-color: #fff3ee;
+      text-align: left;
+      padding-top: 3%;
+
+    }
+
+    .text-boxceline {
+      height: 45rem;
+      background-color: #fff3ee;
+      text-align: left;
+      padding-top: 3%;
+    }
+
+    .text-boxchevallier {
+      height: 45rem;
+      background-color: #fff3ee;
+      text-align: left;
+      padding-top: 3%;
+    }
+
+    .text-boxjmo17 {
+
+      height: 38rem;
+      background-color: #fff3ee;
+      text-align: left;
+      padding-top: 1.5%;
+
+    }
 
 
+
+    h4 {
+      color: #434144;
+    }
+
+    .Pica {
+      padding: 20px;
+      width: 18rem;
+      height: 18rem;
+      box-shadow: 4px 5px 10px 10px rgba(20, 20, 20, 0.4);
+    }
+
+    .Picc {
+      width: 70rem;
+      height: 20rem;
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+    }
+
+    .Picd {
+      width: 20rem;
+      height: 30rem;
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+    }
+
+    .Pice {
+      width: 25rem;
+      height: 37rem;
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+    }
+
+
+    .picms {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 15rem;
+      height: 20rem;
+      margin-left: 3rem;
+    }
+
+    .pich {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 30rem;
+      height: 20rem;
+    }
+
+    .nbcr {
+      filter: grayscale(1) opacity(.8);
+    }
+
+    .nbcr:hover {
+      filter: grayscale(0) opacity(1);
+    }
+
+    .picv {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 20rem;
+      height: 30rem;
+    }
+
+    .piccr {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 35rem;
+      height: 42rem;
+    }
+
+    .blasonC {
+      width: 8rem;
+      height: 10rem;
+    }
+
+    .picrot-15 {
+      transform: rotate(-15deg);
+    }
+
+    .ppich {
+      box-shadow: 4px 5px 10px 5px rgba(20, 20, 20, 0.4);
+      width: 20rem;
+      height: 14rem;
+    }
+
+    .PicConscrits {
+      width: 36rem;
+      height: 24rem;
+    }
+
+    .piclaguerre {
+      width: 40rem;
+      height: 12rem;
+    }
+
+
+    .audiobutton {
+      padding-bottom: 3%;
+    }
+
+    audio::-webkit-media-controls-panel {
+      background-color: #DFAA93
+    }
+
+    audio {
+      height: 1.5rem;
+      width: 14rem;
+    }
+
+
+    @media (max-width:990px) {
+
+      .Pic1a,
+      .Pic1b {
+        position: static;
+        transform: rotate(0);
+      }
+
+    }
+
+    /* Static Carousel pictures */
+
+
+
+    em {
+      color: #232027;
+    }
+
+    .wrapper {
+      width: 66%;
+      margin: 40px auto;
+    }
+
+    .wrapper1 {
+      width: 50%;
+      margin: 40px auto;
+    }
+
+    .wrapper2 {
+      width: 90%;
+      margin: 40px auto;
+    }
+
+    div.gallery {
+      margin-top: 30px;
+    }
+
+    div.gallery ul {
+      list-style-type: none;
+      margin-left: 35px;
+    }
+
+    /* animation */
+    div.gallery ul li,
+    div.gallery li img {
+      -webkit-transition: all 0.1s ease-in-out;
+      -moz-transition: all 0.1s ease-in-out;
+      -o-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+    }
+
+    div.gallery ul li {
+      position: relative;
+      float: left;
+      width: 375px;
+      height: 250px;
+      margin: 5px;
+      padding: 5px;
+      z-index: 0;
+    }
+
+    /* Make sure z-index is higher on hover */
+    /* Ensure that hover image overlapped the others */
+    div.gallery ul li:hover {
+      z-index: 5;
+    }
+
+    /* Image is position nicely under li */
+    div.gallery ul li img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      border: 1px solid #dddddd;
+      padding: 5px;
+      width: 375px;
+      height: 250px;
+      background: #f0f0f0;
+    }
+
+    div.gallery ul li img:hover {
+      width: 750px;
+      height: 500px;
+      margin-top: -250px;
+      margin-left: -375px;
+      top: 65%;
+      left: 65%;
+    }
+
+    p.attribution {
+      font-family: 'Consolas';
+      color: #000;
+      clear: both;
+      text-align: center;
+      line-height: 25px;
+      padding-top: 30px;
+    }
+
+    p.attribution a {
+      color: #4c8d7c;
+    }
+
+    /* Responsive hack */
+    @media only screen and (min-width: 499px) and (max-width: 1212px) {
+      .wrapper {
+        width: 500px;
+      }
+    }
+
+    @media only screen and (max-width: 498px) {
+      .wrapper {
+        width: 300px;
+      }
+
+      div.gallery ul {
+        list-style-type: none;
+        margin: 0;
+      }
+    }
+
+    /* Turning Carousel pictures */
+
+
+    #slideshow {
+      margin: 0 auto;
+      padding-top: 50px;
+      height: 600px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+
+
+    .entire-content {
+      margin: auto;
+      width: 190px;
+      perspective: 1000px;
+      position: relative;
+      padding-top: 40px;
+    }
+
+    .content-carrousel {
+      width: 100%;
+      position: absolute;
+      float: right;
+      animation: rotar 40s infinite linear;
+      transform-style: preserve-3d;
+    }
+
+    .content-carrousel:hover {
+      animation-play-state: paused;
+      cursor: pointer;
+    }
+
+    .content-carrousel figure {
+      width: 160%;
+      height: 200px;
+      border: 1px solid #3b444b;
+      overflow: hidden;
+      position: absolute;
+    }
+
+    .content-carrousel figure:nth-child(1) {
+      transform: rotateY(0deg) translateZ(450px);
+    }
+
+    .content-carrousel figure:nth-child(2) {
+      transform: rotateY(40deg) translateZ(450px);
+    }
+
+    .content-carrousel figure:nth-child(3) {
+      transform: rotateY(80deg) translateZ(450px);
+    }
+
+    .content-carrousel figure:nth-child(4) {
+      transform: rotateY(120deg) translateZ(450px);
+    }
+
+    .content-carrousel figure:nth-child(5) {
+      transform: rotateY(160deg) translateZ(450px);
+    }
+
+    .content-carrousel figure:nth-child(6) {
+      transform: rotateY(200deg) translateZ(450px);
+    }
+
+    .content-carrousel figure:nth-child(7) {
+      transform: rotateY(240deg) translateZ(450px);
+    }
+
+    .content-carrousel figure:nth-child(8) {
+      transform: rotateY(280deg) translateZ(450px);
+    }
+
+    .content-carrousel figure:nth-child(9) {
+      transform: rotateY(320deg) translateZ(450px);
+    }
+
+    .content-carrousel figure:nth-child(10) {
+      transform: rotateY(360deg) translateZ(450px);
+    }
+
+    .shadow {
+      position: absolute;
+      box-shadow: 0px 0px 20px 0px #000;
+      border-radius: 1px;
+      filter: grayscale(1) opacity(.8);
+    }
+
+    .content-carrousel img {
+      image-rendering: auto;
+      transition: all 300ms;
+      width: 100%;
+      height: 100%;
+    }
+
+    .content-carrousel img:hover {
+      transform: scale(1);
+      filter: grayscale(0) opacity(1);
+      transition: all 5000ms;
+    }
+
+    .shadow:hover {
+      filter: grayscale(0) opacity(1);
+    }
+
+    @keyframes rotar {
+      from {
+        transform: rotateY(0deg);
+      }
+
+      to {
+        transform: rotateY(360deg);
+      }
+    }
+  </style>
 </head>
 
 <body>
-<br>
-<br>
-<br>
-<h1>En travaux ... <a href="index.html">
-  <img class="logo retour" src="images/logo1.png" alt="logo-img">
-</a></h1>
-<br>
-<br>
-<h1>On taille dans le dur</h1>
-<br>
-<br>
-<br>
-<iframe src="https://giphy.com/embed/beARHtCFKRg4GBMaas" width="480" height="365" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/wwi-great-war-first-world-beARHtCFKRg4GBMaas">via GIPHY</a></p>
+  <a href="box-page1"></a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid navigation-accueil blip">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="images/logo1.png" alt="logo-img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html#introduction">INTRODUCTION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#les-acteurs">LES ACTEURS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#leslieux">LES LIEUX</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#parcours">PARCOURS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#focus">FOCUS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#Ressources">RESSOURCES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PLAN DES TRANCHEES</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <!-- Page -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="cont">
+          <div class="scroller">
+            <div class="img"><img src="audios/Auvergne1.jpg" alt=""></div>
+            <div class="img"><img src="audios/Partition1.jpg" alt=""></div>
+            <div class="img"><img src="audios/Auvergne2.jpg" alt=""></div>
+            <div class="img"><img src="audios/Partition2.jpg" alt=""></div>
+            <div class="img"><img src="audios/Auvergne1.jpg" alt=""></div>
+            <div class="img"><img src="audios/Partition1.jpg" alt=""></div>
+            <div class="img"><img src="audios/Auvergne2.jpg" alt=""></div>
+            <div class="img"><img src="audios/Partition2.jpg" alt=""></div>
+          </div>
+        </div>
+        <br>
+        <div class="audiobutton">
+          <audio id="audio" controls>
+            <source src="audios/Auvergne.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="col-lg-8">
+      </div>
+    </div>
+    <h1 class="title-parcours">La Crouzille</h1>
+    <br>
+    <img class="blasonC" src="images/imagesbox/BoxCrouzille/BlasonCrouzille.svg" alt="">
+    <br>
+    <br>
+    <br>
+    <h3>La Crouzille … ah, la Crouzille … les Crouzillots en sont fiers et ils ont bien raison. Découvrons la sur un petit air folklorique que l’on aurait pu entendre un jour de noces au village …</h3>
+    <br>
+    <h3>C’est une petite commune perchée sur une crête des Combrailles, à la croisée des chemins, aux confins de la Basse Auvergne, du Bourbonnais et du Limousin. Ça y sent bon la terre et le foin coupé de frais. Générations après générations, ce
+      sont les paysans qui veillent sur
+      ce coin de terre et en ont modelé le paysage et en retour c’est ce paysage qui définit les hommes et les femmes du village.</h3>
+    <br>
+    <br>
+    <br>
+    <img src="images/imagesbox/BoxCrouzille/GoogleCrouzille.JPG" alt="image">
+    <br>
+    <br>
+    <br>
+    <h3>C’est de ce coin d’Auvergne que viennent les trois frères et comme le savent tous ceux qui l’ont quitté, on en garde toujours un petit bout au fond de soi-même. Sans doute ont-ils souvent pensé à leur Crouzille quand ils étaient là-bas, au
+      front. Sans doute ont-ils eu mal au cœur quand ils ont vu les terres des Vosges, de Marne, de Somme et de Verdun meurtries par les obus, eux qui prenaient tant soin de leurs champs et leur bêtes.</h3>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-4 text-box">
+        <br>
+        <br>
+        <br>
+        <h3>Comme le montre cette carte cadastrale de 1899, le bourg en lui-même est tout petit : l’Eglise avec la Mairie et l’école communale juste derrière, le presbytère, deux auberges, un charron, un maréchal-ferrant, un sabotier et quelques
+          maisons … et un peu plus loin le cimetière.</h3>
+        <br>
+        <h3>La majeure partie des habitants réside dans les hameaux disséminés sur la commune et ces hameaux semblent avoir gardé le nom des premières familles qui les ont habités. </h3>
+        <br>
+        <h3>Ainsi dit-on, chez Chamard, chez Sivade, chez Chatroux … mais personne ne sait plus trop d’où viennent les noms.</h3>
+        <br>
+      </div>
+      <div class="col-lg-8">
+        <img src="images/imagesbox/BoxCrouzille/CadastreCrouzille.jpg" alt="image">
+      </div>
+    </div>
+    <br>
+    <br>
+    <h3>A la Crouzille, on vit donc au cœur des champs et les champs restent à portée d’étable, chaque ferme étant blottie à flanc de colline ou dans un vallon. La famille habite le hameau des Raynauds dans une ferme bien entretenue avec une belle
+      maison d’habitation … non accolée à l’étable comme c’est souvent le cas.</h3>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="pich nbcr" src="images/imagesbox/BoxCrouzille/PicRaynauds2.jpg" alt="">
+        <br>
+        <br>
+        <img class="pich nbcr" src="images/imagesbox/BoxCrouzille/PicRaynauds1.jpg" alt="">
+      </div>
+      <div class="col-lg-4">
+        <img class="piccr" src="images/imagesbox/BoxCrouzille/CadastreRaynauds.jpg" alt="">
+      </div>
+      <div class="col-lg-4 text-box">
+        <h3>Voici la photographie de la ferme des Raynauds aujourd’hui. La ferme n’est plus habitée mais tous les bâtiments sont encore intacts.</h3>
+        <br>
+        <h3>D’après le recensement de 1911, la commune compte alors 830 habitants, soit 221 familles, et seulement 59 habitants vivent au bourg de la Crouzille. Avec 40 habitants, Les Raynauds est le plus important hameau de la commune.</h3>
+        <br>
+        <h3>A l’époque, la ferme est pleine de vie et remplie des bruits et des odeurs de la campagne. En hiver, les vaches restent à l’étable mais dès le printemps, les hirondelles viennent nicher sous les solives et les bêtes sont mises aux champs.
+          Pas de route goudronnée, mais un simple chemin de terre et de l’autre côté du chemin, un jardin potager entouré d’un vieux mur et où il pousse aussi du lilas. </h3>
+        <br>
+        <h3>Dans la maison, c’est surtout dans la cuisine que l’on vit – avec ces dalles en pierre de Volvic, elle est fraîche en été et l’hiver on s’assoit et se garde au chaud près de l’âtre de la cheminée.</h3>
+        <br>
 
-
+      </div>
+    </div>
+    <br>
+    <br>
+    <h3>Sur les étagères, des boîtes de biscuits en fer blanc aux couleurs de réclames et sur la table une bonne miche de pain avec du beurre battu à la baratte, un bout de saucisson, le jambon entier que le père découpe avec un grand couteau et
+      les fromages de chèvres à moitié secs …</h3>
+    <br>
+    <h3>Les fermes et les champs sont beaucoup plus petits qu’aujourd’hui, on donne encore des noms aux vaches et c’est une agriculture polyvalente que l’on pratique. Quelques vaches laitières pour le lait et le beurre, mais surtout des ”bêtes à
+      viande‘ que l’on élève pour les vendre au marché aux bestiaux. Des pâtures pour les bêtes, mais aussi quelques champs de blés et de seigle pour la farine. Le cochon qu’on engraisse avec le petit lait, les restants de légumes, les vieilles
+      patates et un peu de son et à qui on fait la fête au mois de Février. Les volailles qu’on nourrit avec le grain, et les lapins en cage qui, s’ils sont chanceux, trouveront un pissenlit dans la brassée d’herbe qu’on leur donne tous les soirs …
+    </h3>
+    <br>
+    <div class="row">
+      <div class="col-lg-5 text-box">
+        <br>
+        <br>
+        <br>
+        <h3>Avant-guerre, il n’y a pas de mécanisation et on utilise des bêtes de trait pour le labour. Surtout des bœufs, mais les plus riches ont un cheval – à la ferme des Raynauds, le cheval s’appelle Mouton ! Tout est fait à la force des bras et
+          à la sueur des hommes, et le blé et l’herbe sont fauchés à la faux.</h3>
+        <br>
+        <h3>Cela signifie aussi que l’on s’entre-aide beaucoup entre voisins quand arrive le temps des foins et de la batteuse par exemple. Certes les hameaux sont éparpillés sur la Commune, mais les paysans sont tous partie intégrante d’une
+          communauté bien vivante et solidaire. D’ailleurs, par chez nous, on ne dit pas ” un tel ou une telle “, on dit ” le Jacques ou la Marie “ parce qu’au fond chacun est unique et bien défini. Il n’y a qu’à la ville que l’on devient un article
+          indéfini …</h3>
+      </div>
+      <div class="col-lg-4 wrapper1">
+        <div class="gallery">
+          <ul>
+            <li><img src="images/imagesbox/BoxCrouzille/Crouzille1.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Crouzille2.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Crouzille1930.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Faucheurs.jpg"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-1">
+        <br>
+        <h3>.</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-1">
+        <br>
+        <h3>.</h3>
+      </div>
+      <div class="col-lg-4 wrapper1">
+        <div class="gallery">
+          <ul>
+            <li><img class="nbcr" src="images/imagesbox/BoxCrouzille/Eglise1.jpg"></li>
+            <li><img class="nbcr" src="images/imagesbox/BoxCrouzille/Eglise2.jpg"></li>
+            <li><img class="nbcr" src="images/imagesbox/BoxCrouzille/Eglise3.jpg"></li>
+            <li><img class="nbcr" src="images/imagesbox/BoxCrouzille/Eglise4.jpg"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-5 text-box">
+        <br>
+        <br>
+        <br>
+        <h3>Mais c’est sans doute l’église de la Crouzille qui est le cœur battant de cette communauté. C’est à l’église Saint Menelée que l’on se retrouve, infailliblement, pour la messe du dimanche, il y fait frais et ça sent bon l’encens. Après la
+          messe, c’est sous le tilleul, face au porche, que les femmes échangent les derniers bavardages, tandis que les hommes vont boire un canon à l’auberge du coin.</h3>
+        <br>
+        <h3>Depuis le 12eme siècle, cette petite église veille paisiblement sur ses ouailles - on y est baptisé, marié et c’est de là qu’on fait son dernier voyage jusqu’au cimetière, le village en procession derrière le cercueil. Avec son clocher à
+          peigne, son architecture est unique dans la région et se sont ces mêmes cloches qui sonneront le tocsin au mois d`Août 1914 …</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <h3>L’histoire et la géographie de la Crouzille sont étroitement liées au Pays des Combrailles et comme le montre les cartes postales échangées entre frères et sœurs, les interactions avec les villages et bourgs alentours sont fréquentes. Ainsi,
+      les filles vont à l’école à Montaigut, les garçons à Marcillat où Antoine fait également son apprentissage de charron , on va au marché à Pionsat, on a des amis ou de la famille à Virlet ou Ars-Les-Favets, on prend le train à Lapeyrouse … et
+      quelquefois, on pousse jusqu’à Commentry pour la foire aux bestiaux.</h3>
+    <br>
+    <h3>Les photographies suivantes vous donneront une idée des lieux à l’époque.</h3>
+    <br>
+    <div class="row">
+      <div class="wrapper2">
+        <div class="gallery">
+          <ul>
+            <li><img src="images/imagesbox/BoxCrouzille/Ars2.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Montaigut1.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Marcillat1.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Montaigut2.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Pionsat1.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Montaigut3.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Pionsat3.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Montaigut6.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Lapeyrouse1.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Montaigut8.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Pionsat5.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Virlet1.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Montaigut9.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Virlet3.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Bellaigues.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/Montaigut5.jpg"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3>Les Combrailles, c’est aussi une terre de contraste ou le monde des paysans côtoie celui des mineurs. St-Eloy-Les-Mines est tout près de la Crouzille et on y exploite des mines de charbon depuis l’Ancien Régime. Avant-guerre, il y a d’ailleurs 13 mineurs qui vivent à la Crouzille. A la campagne, l’Eglise est toute puissante mais à St-Eloy, ce sont les idées socialistes qui dominent. Le maire n’est autre qu’Alexandre Varenne, proche de Jean Jaures, fondateur de la Montagne et l’une des figures nationales de la SFIO …</h3>
+    <br>
+    <br>
+    <div class="row">
+      <div class="wrapper">
+        <div class="gallery">
+          <ul>
+            <li><img src="images/imagesbox/BoxCrouzille/StEloy3.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/StEloy4.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/StEloy2.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/StEloy6.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/StEloy1.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/StEloy8.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/StEloy9.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/StEloy10.jpg"></li>
+            <li><img src="images/imagesbox/BoxCrouzille/StEloy11.jpg"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3>Les années ont passé et une fois le charbon épuisé, les mines ont définitivement fermé en 1978. De même, la mécanisation et l’exode rural ont vidé la campagne devenue trop petite pour nourrir tous ces enfants.</h3>
+    <br>
+    <h3>Aujourd’hui, la Crouzille compte environ 260 habitants contre 830 à la veille de la guerre. Les fermes et les champs sont plus grands, les chemins sont devenus des routes, les troupeaux sont plus gros mais c’est toujours le même paysage verdoyant et ondulé, les mêmes étangs et ruisseaux et les mêmes odeurs de campagne.</h3>
+    <br>
+    <h3>Découvrez un peu de la commune au travers des photographies qui suivent, et comme pour voyager dans le temps, cliquez sur les photos pour colorer cette belle campagne …</h3>
+    <br>
+    <h3>La musique a changé également … alors écoutez donc cette version de La Mazurka de Servant (un autre village des Combrailles) revisitée par le groupe de folk auvergnat, Wazoo.</h3>
+    <br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-4">
+          <div class="cont">
+            <div class="scroller">
+              <div class="img"><img src="audios/Wazoo1.jpg" alt=""></div>
+              <div class="img"><img src="audios/Partition1.jpg" alt=""></div>
+              <div class="img"><img src="audios/Wazoo2.jpg" alt=""></div>
+              <div class="img"><img src="audios/Partition2.jpg" alt=""></div>
+              <div class="img"><img src="audios/Wazoo1.jpg" alt=""></div>
+              <div class="img"><img src="audios/Partition1.jpg" alt=""></div>
+              <div class="img"><img src="audios/Wazoo2.jpg" alt=""></div>
+              <div class="img"><img src="audios/Partition2.jpg" alt=""></div>
+            </div>
+          </div>
+          <br>
+          <div class="audiobutton">
+            <audio id="audio" controls>
+              <source src="audios/MazurkaServant.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <div class="col-lg-4">
+        </div>
+      </div>
+    <br>
+    <div class="row">
+      <div id="slideshow">
+        <div class="entire-content">
+          <div class="content-carrousel">
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicCrouzille1.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicCrouzille10.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicCrouzille4.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicCrouzille13.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicCrouzille5.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicCrouzille6.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicCrouzille7.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicCrouzille8.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicCrouzille11.jpg" alt=""></figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3>Les paysages de la Crouzille</h3>
+    <br>
+    <div class="row">
+      <div id="slideshow">
+        <div class="entire-content">
+          <div class="content-carrousel">
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicChamard2.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicChamard4.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicChamard5.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicChamard6.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicRaynauds1.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicRaynauds2.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicSivade1.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicSivade2.jpg" alt=""></figure>
+            <figure class="shadow"><img src="images/imagesbox/BoxCrouzille/PicSivade3.jpg" alt=""></figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3>Quelques hameaux de la Crouzille : Les Raynauds, Chez Chamard, Chez Sivade, ...</h3>
+    <br>
+    <br>
+    <h4 class="italic"> Avec mes chaleureux remerciements à Anne-Marie Sol, mon "envoyée spéciale à la Crouzille", à Jean-Paul Virmont, historien local de la Crouzille et auteur d'une excellente étude sur le recensement de 1911, à Bernard Jouhendon, historien local de Virlet.</h4>
 
 </body>
-
 </html>
