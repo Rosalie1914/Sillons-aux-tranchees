@@ -427,8 +427,16 @@ padding: 3rem 0rem;
   padding: 20%;
 }
 
-.bigbox-les-lieux{
-position:
+.bigbox1-les-lieux{
+padding-left: 25%;
+}
+
+.bigbox2-les-lieux{
+padding-left: 25%;
+}
+
+#les-lieux {
+  padding-bottom: 5%;
 }
 }
 
